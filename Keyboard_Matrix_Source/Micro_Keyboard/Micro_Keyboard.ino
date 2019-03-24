@@ -44,12 +44,6 @@ byte keys[ROWS][COLS] = {
   {31, 32, 33, 34, 35, 36, 37, 38, 39, 40}
 };
 
-//char keys[ROWS][COLS] = {
-//{'q','w','e','r','t','y','u','i','p','o'},
-//{'a','s','d','f','g','h','j','k','B','l'},
-//{'S','z','x','c','v','b','n','m','E','='},
-//};
-
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
 void setup() {
