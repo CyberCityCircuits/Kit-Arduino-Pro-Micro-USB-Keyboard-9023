@@ -1,0 +1,1864 @@
+EESchema Schematic File Version 4
+LIBS:Keyboard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C8078B1
+P 1600 1350
+F 0 "SW1" H 1600 1635 50  0000 C CNN
+F 1 "SW_Push" H 1600 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 1600 1550 50  0001 C CNN
+F 3 "" H 1600 1550 50  0001 C CNN
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D1
+U 1 1 5C8079A6
+P 1600 1600
+F 0 "D1" H 1600 1792 40  0000 C CNN
+F 1 "1N4148" H 1600 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 1600 60  0001 C CNN
+F 3 "" H 1600 1600 60  0000 C CNN
+	1    1600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1600 1400 1450
+Wire Wire Line
+	1400 1450 1800 1450
+Wire Wire Line
+	1800 1450 1800 1350
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5C807B1F
+P 1600 2050
+F 0 "SW11" H 1600 2335 50  0000 C CNN
+F 1 "SW_Push" H 1600 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 1600 2250 50  0001 C CNN
+F 3 "" H 1600 2250 50  0001 C CNN
+	1    1600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D11
+U 1 1 5C807B26
+P 1600 2300
+F 0 "D11" H 1600 2492 40  0000 C CNN
+F 1 "1N4148" H 1600 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 2300 60  0001 C CNN
+F 3 "" H 1600 2300 60  0000 C CNN
+	1    1600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2300 1400 2150
+Wire Wire Line
+	1400 2150 1800 2150
+Wire Wire Line
+	1800 2150 1800 2050
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5C807C54
+P 1600 2750
+F 0 "SW21" H 1600 3035 50  0000 C CNN
+F 1 "SW_Push" H 1600 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 1600 2950 50  0001 C CNN
+F 3 "" H 1600 2950 50  0001 C CNN
+	1    1600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D21
+U 1 1 5C807C5B
+P 1600 3000
+F 0 "D21" H 1600 3192 40  0000 C CNN
+F 1 "1N4148" H 1600 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 3000 60  0001 C CNN
+F 3 "" H 1600 3000 60  0000 C CNN
+	1    1600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3000 1400 2850
+Wire Wire Line
+	1400 2850 1800 2850
+Wire Wire Line
+	1800 2850 1800 2750
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5C807CE8
+P 1600 3450
+F 0 "SW31" H 1600 3735 50  0000 C CNN
+F 1 "SW_Push" H 1600 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 1600 3650 50  0001 C CNN
+F 3 "" H 1600 3650 50  0001 C CNN
+	1    1600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D31
+U 1 1 5C807CEF
+P 1600 3700
+F 0 "D31" H 1600 3892 40  0000 C CNN
+F 1 "1N4148" H 1600 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 3700 60  0001 C CNN
+F 3 "" H 1600 3700 60  0000 C CNN
+	1    1600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3700 1400 3550
+Wire Wire Line
+	1400 3550 1800 3550
+Wire Wire Line
+	1800 3550 1800 3450
+Wire Wire Line
+	1950 900  1950 1600
+Wire Wire Line
+	1800 1600 1950 1600
+Connection ~ 1950 1600
+Wire Wire Line
+	1950 1600 1950 2300
+Wire Wire Line
+	1800 2300 1950 2300
+Connection ~ 1950 2300
+Wire Wire Line
+	1950 2300 1950 3000
+Wire Wire Line
+	1800 3000 1950 3000
+Connection ~ 1950 3000
+Wire Wire Line
+	1950 3000 1950 3700
+Wire Wire Line
+	1800 3700 1950 3700
+Text GLabel 1950 900  1    50   Input ~ 0
+COL1
+Text GLabel 1200 1150 0    50   Input ~ 0
+ROW1
+Text GLabel 1200 1850 0    50   Input ~ 0
+ROW2
+Text GLabel 1200 2550 0    50   Input ~ 0
+ROW3
+Text GLabel 1200 3250 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	1200 1150 1400 1150
+Wire Wire Line
+	1400 3450 1400 3250
+Wire Wire Line
+	1400 2750 1400 2550
+Wire Wire Line
+	1400 2050 1400 1850
+Wire Wire Line
+	1400 1350 1400 1150
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C811322
+P 2250 1350
+F 0 "SW2" H 2250 1635 50  0000 C CNN
+F 1 "SW_Push" H 2250 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2250 1550 50  0001 C CNN
+F 3 "" H 2250 1550 50  0001 C CNN
+	1    2250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D2
+U 1 1 5C811329
+P 2250 1600
+F 0 "D2" H 2250 1792 40  0000 C CNN
+F 1 "1N4148" H 2250 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 1600 60  0001 C CNN
+F 3 "" H 2250 1600 60  0000 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1600 2050 1450
+Wire Wire Line
+	2050 1450 2450 1450
+Wire Wire Line
+	2450 1450 2450 1350
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5C811333
+P 2250 2050
+F 0 "SW12" H 2250 2335 50  0000 C CNN
+F 1 "SW_Push" H 2250 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2250 2250 50  0001 C CNN
+F 3 "" H 2250 2250 50  0001 C CNN
+	1    2250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D12
+U 1 1 5C81133A
+P 2250 2300
+F 0 "D12" H 2250 2492 40  0000 C CNN
+F 1 "1N4148" H 2250 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 2300 60  0001 C CNN
+F 3 "" H 2250 2300 60  0000 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2300 2050 2150
+Wire Wire Line
+	2050 2150 2450 2150
+Wire Wire Line
+	2450 2150 2450 2050
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5C811344
+P 2250 2750
+F 0 "SW22" H 2250 3035 50  0000 C CNN
+F 1 "SW_Push" H 2250 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2250 2950 50  0001 C CNN
+F 3 "" H 2250 2950 50  0001 C CNN
+	1    2250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D22
+U 1 1 5C81134B
+P 2250 3000
+F 0 "D22" H 2250 3192 40  0000 C CNN
+F 1 "1N4148" H 2250 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 3000 60  0001 C CNN
+F 3 "" H 2250 3000 60  0000 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3000 2050 2850
+Wire Wire Line
+	2050 2850 2450 2850
+Wire Wire Line
+	2450 2850 2450 2750
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5C811355
+P 2250 3450
+F 0 "SW32" H 2250 3735 50  0000 C CNN
+F 1 "SW_Push" H 2250 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2250 3650 50  0001 C CNN
+F 3 "" H 2250 3650 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D32
+U 1 1 5C81135C
+P 2250 3700
+F 0 "D32" H 2250 3892 40  0000 C CNN
+F 1 "1N4148" H 2250 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 3700 60  0001 C CNN
+F 3 "" H 2250 3700 60  0000 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3700 2050 3550
+Wire Wire Line
+	2050 3550 2450 3550
+Wire Wire Line
+	2450 3550 2450 3450
+Wire Wire Line
+	2600 900  2600 1600
+Wire Wire Line
+	2450 1600 2600 1600
+Connection ~ 2600 1600
+Wire Wire Line
+	2600 1600 2600 2300
+Wire Wire Line
+	2450 2300 2600 2300
+Connection ~ 2600 2300
+Wire Wire Line
+	2600 2300 2600 3000
+Wire Wire Line
+	2450 3000 2600 3000
+Wire Wire Line
+	2450 3700 2600 3700
+Wire Wire Line
+	2050 3450 2050 3250
+Wire Wire Line
+	2050 2750 2050 2550
+Wire Wire Line
+	2050 2050 2050 1850
+Wire Wire Line
+	2050 1350 2050 1150
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C8145BC
+P 2900 1350
+F 0 "SW3" H 2900 1635 50  0000 C CNN
+F 1 "SW_Push" H 2900 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2900 1550 50  0001 C CNN
+F 3 "" H 2900 1550 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D3
+U 1 1 5C8145C3
+P 2900 1600
+F 0 "D3" H 2900 1792 40  0000 C CNN
+F 1 "1N4148" H 2900 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 1600 60  0001 C CNN
+F 3 "" H 2900 1600 60  0000 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1600 2700 1450
+Wire Wire Line
+	2700 1450 3100 1450
+Wire Wire Line
+	3100 1450 3100 1350
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5C8145CD
+P 2900 2050
+F 0 "SW13" H 2900 2335 50  0000 C CNN
+F 1 "SW_Push" H 2900 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2900 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D13
+U 1 1 5C8145D4
+P 2900 2300
+F 0 "D13" H 2900 2492 40  0000 C CNN
+F 1 "1N4148" H 2900 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 2300 60  0001 C CNN
+F 3 "" H 2900 2300 60  0000 C CNN
+	1    2900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2300 2700 2150
+Wire Wire Line
+	2700 2150 3100 2150
+Wire Wire Line
+	3100 2150 3100 2050
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5C8145DE
+P 2900 2750
+F 0 "SW23" H 2900 3035 50  0000 C CNN
+F 1 "SW_Push" H 2900 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2900 2950 50  0001 C CNN
+F 3 "" H 2900 2950 50  0001 C CNN
+	1    2900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D23
+U 1 1 5C8145E5
+P 2900 3000
+F 0 "D23" H 2900 3192 40  0000 C CNN
+F 1 "1N4148" H 2900 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 3000 60  0001 C CNN
+F 3 "" H 2900 3000 60  0000 C CNN
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3000 2700 2850
+Wire Wire Line
+	2700 2850 3100 2850
+Wire Wire Line
+	3100 2850 3100 2750
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5C8145EF
+P 2900 3450
+F 0 "SW33" H 2900 3735 50  0000 C CNN
+F 1 "SW_Push" H 2900 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2900 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0001 C CNN
+	1    2900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D33
+U 1 1 5C8145F6
+P 2900 3700
+F 0 "D33" H 2900 3892 40  0000 C CNN
+F 1 "1N4148" H 2900 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 3700 60  0001 C CNN
+F 3 "" H 2900 3700 60  0000 C CNN
+	1    2900 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3700 2700 3550
+Wire Wire Line
+	2700 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3450
+Wire Wire Line
+	3250 900  3250 1600
+Wire Wire Line
+	3100 1600 3250 1600
+Connection ~ 3250 1600
+Wire Wire Line
+	3250 1600 3250 2300
+Wire Wire Line
+	3100 2300 3250 2300
+Connection ~ 3250 2300
+Wire Wire Line
+	3250 2300 3250 3000
+Wire Wire Line
+	3100 3000 3250 3000
+Connection ~ 3250 3000
+Wire Wire Line
+	3250 3000 3250 3700
+Wire Wire Line
+	3100 3700 3250 3700
+Wire Wire Line
+	2700 3450 2700 3250
+Wire Wire Line
+	2700 2750 2700 2550
+Wire Wire Line
+	2700 2050 2700 1850
+Wire Wire Line
+	2700 1350 2700 1150
+Text GLabel 2600 900  1    50   Input ~ 0
+COL2
+Text GLabel 3250 900  1    50   Input ~ 0
+COL3
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C831411
+P 3550 1350
+F 0 "SW4" H 3550 1635 50  0000 C CNN
+F 1 "SW_Push" H 3550 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 3550 1550 50  0001 C CNN
+F 3 "" H 3550 1550 50  0001 C CNN
+	1    3550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D4
+U 1 1 5C831418
+P 3550 1600
+F 0 "D4" H 3550 1792 40  0000 C CNN
+F 1 "1N4148" H 3550 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 1600 60  0001 C CNN
+F 3 "" H 3550 1600 60  0000 C CNN
+	1    3550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1600 3350 1450
+Wire Wire Line
+	3350 1450 3750 1450
+Wire Wire Line
+	3750 1450 3750 1350
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5C831422
+P 3550 2050
+F 0 "SW14" H 3550 2335 50  0000 C CNN
+F 1 "SW_Push" H 3550 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 3550 2250 50  0001 C CNN
+F 3 "" H 3550 2250 50  0001 C CNN
+	1    3550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D14
+U 1 1 5C831429
+P 3550 2300
+F 0 "D14" H 3550 2492 40  0000 C CNN
+F 1 "1N4148" H 3550 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 2300 60  0001 C CNN
+F 3 "" H 3550 2300 60  0000 C CNN
+	1    3550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2300 3350 2150
+Wire Wire Line
+	3350 2150 3750 2150
+Wire Wire Line
+	3750 2150 3750 2050
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5C831433
+P 3550 2750
+F 0 "SW24" H 3550 3035 50  0000 C CNN
+F 1 "SW_Push" H 3550 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 3550 2950 50  0001 C CNN
+F 3 "" H 3550 2950 50  0001 C CNN
+	1    3550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D24
+U 1 1 5C83143A
+P 3550 3000
+F 0 "D24" H 3550 3192 40  0000 C CNN
+F 1 "1N4148" H 3550 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 3000 60  0001 C CNN
+F 3 "" H 3550 3000 60  0000 C CNN
+	1    3550 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3000 3350 2850
+Wire Wire Line
+	3350 2850 3750 2850
+Wire Wire Line
+	3750 2850 3750 2750
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5C831444
+P 3550 3450
+F 0 "SW34" H 3550 3735 50  0000 C CNN
+F 1 "SW_Push" H 3550 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 3550 3650 50  0001 C CNN
+F 3 "" H 3550 3650 50  0001 C CNN
+	1    3550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D34
+U 1 1 5C83144B
+P 3550 3700
+F 0 "D34" H 3550 3892 40  0000 C CNN
+F 1 "1N4148" H 3550 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 3700 60  0001 C CNN
+F 3 "" H 3550 3700 60  0000 C CNN
+	1    3550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3700 3350 3550
+Wire Wire Line
+	3350 3550 3750 3550
+Wire Wire Line
+	3750 3550 3750 3450
+Wire Wire Line
+	3900 900  3900 1600
+Wire Wire Line
+	3750 1600 3900 1600
+Connection ~ 3900 1600
+Wire Wire Line
+	3900 1600 3900 2300
+Wire Wire Line
+	3750 2300 3900 2300
+Connection ~ 3900 2300
+Wire Wire Line
+	3900 2300 3900 3000
+Wire Wire Line
+	3750 3000 3900 3000
+Connection ~ 3900 3000
+Wire Wire Line
+	3900 3000 3900 3700
+Wire Wire Line
+	3750 3700 3900 3700
+Wire Wire Line
+	3350 3450 3350 3250
+Wire Wire Line
+	3350 2750 3350 2550
+Wire Wire Line
+	3350 1350 3350 1150
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C831483
+P 4200 1350
+F 0 "SW5" H 4200 1635 50  0000 C CNN
+F 1 "SW_Push" H 4200 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4200 1550 50  0001 C CNN
+F 3 "" H 4200 1550 50  0001 C CNN
+	1    4200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D5
+U 1 1 5C83148A
+P 4200 1600
+F 0 "D5" H 4200 1792 40  0000 C CNN
+F 1 "1N4148" H 4200 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 1600 60  0001 C CNN
+F 3 "" H 4200 1600 60  0000 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1600 4000 1450
+Wire Wire Line
+	4000 1450 4400 1450
+Wire Wire Line
+	4400 1450 4400 1350
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5C831494
+P 4200 2050
+F 0 "SW15" H 4200 2335 50  0000 C CNN
+F 1 "SW_Push" H 4200 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4200 2250 50  0001 C CNN
+F 3 "" H 4200 2250 50  0001 C CNN
+	1    4200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D15
+U 1 1 5C83149B
+P 4200 2300
+F 0 "D15" H 4200 2492 40  0000 C CNN
+F 1 "1N4148" H 4200 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 2300 60  0001 C CNN
+F 3 "" H 4200 2300 60  0000 C CNN
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2300 4000 2150
+Wire Wire Line
+	4000 2150 4400 2150
+Wire Wire Line
+	4400 2150 4400 2050
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5C8314A5
+P 4200 2750
+F 0 "SW25" H 4200 3035 50  0000 C CNN
+F 1 "SW_Push" H 4200 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4200 2950 50  0001 C CNN
+F 3 "" H 4200 2950 50  0001 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D25
+U 1 1 5C8314AC
+P 4200 3000
+F 0 "D25" H 4200 3192 40  0000 C CNN
+F 1 "1N4148" H 4200 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 3000 60  0001 C CNN
+F 3 "" H 4200 3000 60  0000 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3000 4000 2850
+Wire Wire Line
+	4000 2850 4400 2850
+Wire Wire Line
+	4400 2850 4400 2750
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5C8314B6
+P 4200 3450
+F 0 "SW35" H 4200 3735 50  0000 C CNN
+F 1 "SW_Push" H 4200 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D35
+U 1 1 5C8314BD
+P 4200 3700
+F 0 "D35" H 4200 3892 40  0000 C CNN
+F 1 "1N4148" H 4200 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 3700 60  0001 C CNN
+F 3 "" H 4200 3700 60  0000 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3700 4000 3550
+Wire Wire Line
+	4000 3550 4400 3550
+Wire Wire Line
+	4400 3550 4400 3450
+Wire Wire Line
+	4550 900  4550 1600
+Wire Wire Line
+	4400 1600 4550 1600
+Connection ~ 4550 1600
+Wire Wire Line
+	4550 1600 4550 2300
+Wire Wire Line
+	4400 2300 4550 2300
+Connection ~ 4550 2300
+Wire Wire Line
+	4550 2300 4550 3000
+Wire Wire Line
+	4400 3000 4550 3000
+Connection ~ 4550 3000
+Wire Wire Line
+	4550 3000 4550 3700
+Wire Wire Line
+	4400 3700 4550 3700
+Wire Wire Line
+	4000 3450 4000 3250
+Wire Wire Line
+	4000 2750 4000 2550
+Wire Wire Line
+	4000 2050 4000 1850
+Wire Wire Line
+	4000 1350 4000 1150
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C8314EB
+P 4850 1350
+F 0 "SW6" H 4850 1635 50  0000 C CNN
+F 1 "SW_Push" H 4850 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4850 1550 50  0001 C CNN
+F 3 "" H 4850 1550 50  0001 C CNN
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D6
+U 1 1 5C8314F2
+P 4850 1600
+F 0 "D6" H 4850 1792 40  0000 C CNN
+F 1 "1N4148" H 4850 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 1600 60  0001 C CNN
+F 3 "" H 4850 1600 60  0000 C CNN
+	1    4850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1600 4650 1450
+Wire Wire Line
+	4650 1450 5050 1450
+Wire Wire Line
+	5050 1450 5050 1350
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5C8314FC
+P 4850 2050
+F 0 "SW16" H 4850 2335 50  0000 C CNN
+F 1 "SW_Push" H 4850 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4850 2250 50  0001 C CNN
+F 3 "" H 4850 2250 50  0001 C CNN
+	1    4850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D16
+U 1 1 5C831503
+P 4850 2300
+F 0 "D16" H 4850 2492 40  0000 C CNN
+F 1 "1N4148" H 4850 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 2300 60  0001 C CNN
+F 3 "" H 4850 2300 60  0000 C CNN
+	1    4850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2300 4650 2150
+Wire Wire Line
+	4650 2150 5050 2150
+Wire Wire Line
+	5050 2150 5050 2050
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5C83150D
+P 4850 2750
+F 0 "SW26" H 4850 3035 50  0000 C CNN
+F 1 "SW_Push" H 4850 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4850 2950 50  0001 C CNN
+F 3 "" H 4850 2950 50  0001 C CNN
+	1    4850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D26
+U 1 1 5C831514
+P 4850 3000
+F 0 "D26" H 4850 3192 40  0000 C CNN
+F 1 "1N4148" H 4850 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 3000 60  0001 C CNN
+F 3 "" H 4850 3000 60  0000 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3000 4650 2850
+Wire Wire Line
+	4650 2850 5050 2850
+Wire Wire Line
+	5050 2850 5050 2750
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5C83151E
+P 4850 3450
+F 0 "SW36" H 4850 3735 50  0000 C CNN
+F 1 "SW_Push" H 4850 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4850 3650 50  0001 C CNN
+F 3 "" H 4850 3650 50  0001 C CNN
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D36
+U 1 1 5C831525
+P 4850 3700
+F 0 "D36" H 4850 3892 40  0000 C CNN
+F 1 "1N4148" H 4850 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 3700 60  0001 C CNN
+F 3 "" H 4850 3700 60  0000 C CNN
+	1    4850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3700 4650 3550
+Wire Wire Line
+	4650 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 3450
+Wire Wire Line
+	5200 900  5200 1600
+Wire Wire Line
+	5050 1600 5200 1600
+Connection ~ 5200 1600
+Wire Wire Line
+	5200 1600 5200 2300
+Wire Wire Line
+	5050 2300 5200 2300
+Connection ~ 5200 2300
+Wire Wire Line
+	5200 2300 5200 3000
+Wire Wire Line
+	5050 3000 5200 3000
+Connection ~ 5200 3000
+Wire Wire Line
+	5200 3000 5200 3700
+Wire Wire Line
+	5050 3700 5200 3700
+Wire Wire Line
+	4650 3450 4650 3250
+Wire Wire Line
+	4650 2750 4650 2550
+Wire Wire Line
+	4650 2050 4650 1850
+Wire Wire Line
+	4650 1350 4650 1150
+Text GLabel 3900 900  1    50   Input ~ 0
+COL4
+Text GLabel 4550 900  1    50   Input ~ 0
+COL5
+Text GLabel 5200 900  1    50   Input ~ 0
+COL6
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 2600 3700
+Wire Wire Line
+	1400 1150 2050 1150
+Connection ~ 1400 1150
+Connection ~ 2050 1150
+Wire Wire Line
+	2050 1150 2700 1150
+Connection ~ 2700 1150
+Wire Wire Line
+	2700 1150 3350 1150
+Connection ~ 3350 1150
+Wire Wire Line
+	3350 1150 4000 1150
+Connection ~ 4000 1150
+Wire Wire Line
+	4000 1150 4650 1150
+Connection ~ 4650 1150
+Wire Wire Line
+	4650 1150 5300 1150
+Wire Wire Line
+	1200 1850 1400 1850
+Wire Wire Line
+	1200 2550 1400 2550
+Wire Wire Line
+	1200 3250 1400 3250
+Connection ~ 1400 3250
+Wire Wire Line
+	1400 3250 2050 3250
+Connection ~ 1400 2550
+Wire Wire Line
+	1400 2550 2050 2550
+Connection ~ 2050 2550
+Wire Wire Line
+	2050 2550 2700 2550
+Connection ~ 2700 2550
+Wire Wire Line
+	2700 2550 3350 2550
+Connection ~ 3350 2550
+Wire Wire Line
+	3350 2550 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4650 2550
+Connection ~ 4650 2550
+Wire Wire Line
+	4650 2550 5300 2550
+Connection ~ 2050 3250
+Wire Wire Line
+	2050 3250 2700 3250
+Connection ~ 2700 3250
+Wire Wire Line
+	2700 3250 3350 3250
+Connection ~ 4650 3250
+Wire Wire Line
+	4650 3250 5300 3250
+Connection ~ 4000 3250
+Wire Wire Line
+	4000 3250 4650 3250
+Connection ~ 3350 3250
+Wire Wire Line
+	3350 3250 4000 3250
+Connection ~ 4650 1850
+Wire Wire Line
+	4650 1850 5300 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4000 1850 4650 1850
+Wire Wire Line
+	3350 1850 3350 2050
+Connection ~ 3350 1850
+Wire Wire Line
+	3350 1850 4000 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2700 1850 3350 1850
+Connection ~ 2050 1850
+Wire Wire Line
+	2050 1850 2700 1850
+Connection ~ 1400 1850
+Wire Wire Line
+	1400 1850 2050 1850
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5C99C118
+P 5500 1350
+F 0 "SW7" H 5500 1635 50  0000 C CNN
+F 1 "SW_Push" H 5500 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 5500 1550 50  0001 C CNN
+F 3 "" H 5500 1550 50  0001 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D7
+U 1 1 5C99C11F
+P 5500 1600
+F 0 "D7" H 5500 1792 40  0000 C CNN
+F 1 "1N4148" H 5500 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 1600 60  0001 C CNN
+F 3 "" H 5500 1600 60  0000 C CNN
+	1    5500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1600 5300 1450
+Wire Wire Line
+	5300 1450 5700 1450
+Wire Wire Line
+	5700 1450 5700 1350
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5C99C129
+P 5500 2050
+F 0 "SW17" H 5500 2335 50  0000 C CNN
+F 1 "SW_Push" H 5500 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D17
+U 1 1 5C99C130
+P 5500 2300
+F 0 "D17" H 5500 2492 40  0000 C CNN
+F 1 "1N4148" H 5500 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 2300 60  0001 C CNN
+F 3 "" H 5500 2300 60  0000 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2300 5300 2150
+Wire Wire Line
+	5300 2150 5700 2150
+Wire Wire Line
+	5700 2150 5700 2050
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5C99C13A
+P 5500 2750
+F 0 "SW27" H 5500 3035 50  0000 C CNN
+F 1 "SW_Push" H 5500 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 5500 2950 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D27
+U 1 1 5C99C141
+P 5500 3000
+F 0 "D27" H 5500 3192 40  0000 C CNN
+F 1 "1N4148" H 5500 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 3000 60  0001 C CNN
+F 3 "" H 5500 3000 60  0000 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3000 5300 2850
+Wire Wire Line
+	5300 2850 5700 2850
+Wire Wire Line
+	5700 2850 5700 2750
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5C99C14B
+P 5500 3450
+F 0 "SW37" H 5500 3735 50  0000 C CNN
+F 1 "SW_Push" H 5500 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 5500 3650 50  0001 C CNN
+F 3 "" H 5500 3650 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D37
+U 1 1 5C99C152
+P 5500 3700
+F 0 "D37" H 5500 3892 40  0000 C CNN
+F 1 "1N4148" H 5500 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 3700 60  0001 C CNN
+F 3 "" H 5500 3700 60  0000 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3700 5300 3550
+Wire Wire Line
+	5300 3550 5700 3550
+Wire Wire Line
+	5700 3550 5700 3450
+Wire Wire Line
+	5850 900  5850 1600
+Wire Wire Line
+	5700 1600 5850 1600
+Connection ~ 5850 1600
+Wire Wire Line
+	5850 1600 5850 2300
+Wire Wire Line
+	5700 2300 5850 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	5850 2300 5850 3000
+Wire Wire Line
+	5700 3000 5850 3000
+Connection ~ 5850 3000
+Wire Wire Line
+	5850 3000 5850 3700
+Wire Wire Line
+	5700 3700 5850 3700
+Wire Wire Line
+	5300 3450 5300 3250
+Wire Wire Line
+	5300 2750 5300 2550
+Wire Wire Line
+	5300 2050 5300 1850
+Wire Wire Line
+	5300 1350 5300 1150
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5C99C16B
+P 6150 1350
+F 0 "SW8" H 6150 1635 50  0000 C CNN
+F 1 "SW_Push" H 6150 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6150 1550 50  0001 C CNN
+F 3 "" H 6150 1550 50  0001 C CNN
+	1    6150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D8
+U 1 1 5C99C172
+P 6150 1600
+F 0 "D8" H 6150 1792 40  0000 C CNN
+F 1 "1N4148" H 6150 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 1600 60  0001 C CNN
+F 3 "" H 6150 1600 60  0000 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1600 5950 1450
+Wire Wire Line
+	5950 1450 6350 1450
+Wire Wire Line
+	6350 1450 6350 1350
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5C99C17C
+P 6150 2050
+F 0 "SW18" H 6150 2335 50  0000 C CNN
+F 1 "SW_Push" H 6150 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6150 2250 50  0001 C CNN
+F 3 "" H 6150 2250 50  0001 C CNN
+	1    6150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D18
+U 1 1 5C99C183
+P 6150 2300
+F 0 "D18" H 6150 2492 40  0000 C CNN
+F 1 "1N4148" H 6150 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 2300 60  0001 C CNN
+F 3 "" H 6150 2300 60  0000 C CNN
+	1    6150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2300 5950 2150
+Wire Wire Line
+	5950 2150 6350 2150
+Wire Wire Line
+	6350 2150 6350 2050
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5C99C18D
+P 6150 2750
+F 0 "SW28" H 6150 3035 50  0000 C CNN
+F 1 "SW_Push" H 6150 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6150 2950 50  0001 C CNN
+F 3 "" H 6150 2950 50  0001 C CNN
+	1    6150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D28
+U 1 1 5C99C194
+P 6150 3000
+F 0 "D28" H 6150 3192 40  0000 C CNN
+F 1 "1N4148" H 6150 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 3000 60  0001 C CNN
+F 3 "" H 6150 3000 60  0000 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3000 5950 2850
+Wire Wire Line
+	5950 2850 6350 2850
+Wire Wire Line
+	6350 2850 6350 2750
+$Comp
+L Switch:SW_Push SW38
+U 1 1 5C99C19E
+P 6150 3450
+F 0 "SW38" H 6150 3735 50  0000 C CNN
+F 1 "SW_Push" H 6150 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6150 3650 50  0001 C CNN
+F 3 "" H 6150 3650 50  0001 C CNN
+	1    6150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D38
+U 1 1 5C99C1A5
+P 6150 3700
+F 0 "D38" H 6150 3892 40  0000 C CNN
+F 1 "1N4148" H 6150 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 3700 60  0001 C CNN
+F 3 "" H 6150 3700 60  0000 C CNN
+	1    6150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3700 5950 3550
+Wire Wire Line
+	5950 3550 6350 3550
+Wire Wire Line
+	6350 3550 6350 3450
+Wire Wire Line
+	6500 900  6500 1600
+Wire Wire Line
+	6350 1600 6500 1600
+Connection ~ 6500 1600
+Wire Wire Line
+	6500 1600 6500 2300
+Wire Wire Line
+	6350 2300 6500 2300
+Connection ~ 6500 2300
+Wire Wire Line
+	6500 2300 6500 3000
+Wire Wire Line
+	6350 3000 6500 3000
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6500 3700
+Wire Wire Line
+	6350 3700 6500 3700
+Wire Wire Line
+	5950 3450 5950 3250
+Wire Wire Line
+	5950 2750 5950 2550
+Wire Wire Line
+	5950 1350 5950 1150
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5C99C1BD
+P 6800 1350
+F 0 "SW9" H 6800 1635 50  0000 C CNN
+F 1 "SW_Push" H 6800 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6800 1550 50  0001 C CNN
+F 3 "" H 6800 1550 50  0001 C CNN
+	1    6800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D9
+U 1 1 5C99C1C4
+P 6800 1600
+F 0 "D9" H 6800 1792 40  0000 C CNN
+F 1 "1N4148" H 6800 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 1600 60  0001 C CNN
+F 3 "" H 6800 1600 60  0000 C CNN
+	1    6800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1600 6600 1450
+Wire Wire Line
+	6600 1450 7000 1450
+Wire Wire Line
+	7000 1450 7000 1350
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5C99C1CE
+P 6800 2050
+F 0 "SW19" H 6800 2335 50  0000 C CNN
+F 1 "SW_Push" H 6800 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6800 2250 50  0001 C CNN
+F 3 "" H 6800 2250 50  0001 C CNN
+	1    6800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D19
+U 1 1 5C99C1D5
+P 6800 2300
+F 0 "D19" H 6800 2492 40  0000 C CNN
+F 1 "1N4148" H 6800 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 2300 60  0001 C CNN
+F 3 "" H 6800 2300 60  0000 C CNN
+	1    6800 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2300 6600 2150
+Wire Wire Line
+	6600 2150 7000 2150
+Wire Wire Line
+	7000 2150 7000 2050
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5C99C1DF
+P 6800 2750
+F 0 "SW29" H 6800 3035 50  0000 C CNN
+F 1 "SW_Push" H 6800 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6800 2950 50  0001 C CNN
+F 3 "" H 6800 2950 50  0001 C CNN
+	1    6800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D29
+U 1 1 5C99C1E6
+P 6800 3000
+F 0 "D29" H 6800 3192 40  0000 C CNN
+F 1 "1N4148" H 6800 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 3000 60  0001 C CNN
+F 3 "" H 6800 3000 60  0000 C CNN
+	1    6800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3000 6600 2850
+Wire Wire Line
+	6600 2850 7000 2850
+Wire Wire Line
+	7000 2850 7000 2750
+$Comp
+L Switch:SW_Push SW39
+U 1 1 5C99C1F0
+P 6800 3450
+F 0 "SW39" H 6800 3735 50  0000 C CNN
+F 1 "SW_Push" H 6800 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6800 3650 50  0001 C CNN
+F 3 "" H 6800 3650 50  0001 C CNN
+	1    6800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D39
+U 1 1 5C99C1F7
+P 6800 3700
+F 0 "D39" H 6800 3892 40  0000 C CNN
+F 1 "1N4148" H 6800 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 3700 60  0001 C CNN
+F 3 "" H 6800 3700 60  0000 C CNN
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3700 6600 3550
+Wire Wire Line
+	6600 3550 7000 3550
+Wire Wire Line
+	7000 3550 7000 3450
+Wire Wire Line
+	7150 900  7150 1600
+Wire Wire Line
+	7000 1600 7150 1600
+Connection ~ 7150 1600
+Wire Wire Line
+	7150 1600 7150 2300
+Wire Wire Line
+	7000 2300 7150 2300
+Connection ~ 7150 2300
+Wire Wire Line
+	7150 2300 7150 3000
+Wire Wire Line
+	7000 3000 7150 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7150 3000 7150 3700
+Wire Wire Line
+	7000 3700 7150 3700
+Wire Wire Line
+	6600 3450 6600 3250
+Wire Wire Line
+	6600 2750 6600 2550
+Wire Wire Line
+	6600 2050 6600 1850
+Wire Wire Line
+	6600 1350 6600 1150
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5C99C210
+P 7450 1350
+F 0 "SW10" H 7450 1635 50  0000 C CNN
+F 1 "SW_Push" H 7450 1544 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 7450 1550 50  0001 C CNN
+F 3 "" H 7450 1550 50  0001 C CNN
+	1    7450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D10
+U 1 1 5C99C217
+P 7450 1600
+F 0 "D10" H 7450 1792 40  0000 C CNN
+F 1 "1N4148" H 7450 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 1600 60  0001 C CNN
+F 3 "" H 7450 1600 60  0000 C CNN
+	1    7450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1600 7250 1450
+Wire Wire Line
+	7250 1450 7650 1450
+Wire Wire Line
+	7650 1450 7650 1350
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5C99C221
+P 7450 2050
+F 0 "SW20" H 7450 2335 50  0000 C CNN
+F 1 "SW_Push" H 7450 2244 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 7450 2250 50  0001 C CNN
+F 3 "" H 7450 2250 50  0001 C CNN
+	1    7450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D20
+U 1 1 5C99C228
+P 7450 2300
+F 0 "D20" H 7450 2492 40  0000 C CNN
+F 1 "1N4148" H 7450 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 2300 60  0001 C CNN
+F 3 "" H 7450 2300 60  0000 C CNN
+	1    7450 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2300 7250 2150
+Wire Wire Line
+	7250 2150 7650 2150
+Wire Wire Line
+	7650 2150 7650 2050
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5C99C232
+P 7450 2750
+F 0 "SW30" H 7450 3035 50  0000 C CNN
+F 1 "SW_Push" H 7450 2944 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 7450 2950 50  0001 C CNN
+F 3 "" H 7450 2950 50  0001 C CNN
+	1    7450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D30
+U 1 1 5C99C239
+P 7450 3000
+F 0 "D30" H 7450 3192 40  0000 C CNN
+F 1 "1N4148" H 7450 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 3000 60  0001 C CNN
+F 3 "" H 7450 3000 60  0000 C CNN
+	1    7450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3000 7250 2850
+Wire Wire Line
+	7250 2850 7650 2850
+Wire Wire Line
+	7650 2850 7650 2750
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5C99C243
+P 7450 3450
+F 0 "SW40" H 7450 3735 50  0000 C CNN
+F 1 "SW_Push" H 7450 3644 50  0000 C CNN
+F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 7450 3650 50  0001 C CNN
+F 3 "" H 7450 3650 50  0001 C CNN
+	1    7450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D40
+U 1 1 5C99C24A
+P 7450 3700
+F 0 "D40" H 7450 3892 40  0000 C CNN
+F 1 "1N4148" H 7450 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 3700 60  0001 C CNN
+F 3 "" H 7450 3700 60  0000 C CNN
+	1    7450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3700 7250 3550
+Wire Wire Line
+	7250 3550 7650 3550
+Wire Wire Line
+	7650 3550 7650 3450
+Wire Wire Line
+	7800 900  7800 1600
+Wire Wire Line
+	7650 1600 7800 1600
+Connection ~ 7800 1600
+Wire Wire Line
+	7800 1600 7800 2300
+Wire Wire Line
+	7650 2300 7800 2300
+Connection ~ 7800 2300
+Wire Wire Line
+	7800 2300 7800 3000
+Wire Wire Line
+	7650 3000 7800 3000
+Connection ~ 7800 3000
+Wire Wire Line
+	7800 3000 7800 3700
+Wire Wire Line
+	7650 3700 7800 3700
+Wire Wire Line
+	7250 3450 7250 3250
+Wire Wire Line
+	7250 2750 7250 2550
+Wire Wire Line
+	7250 2050 7250 1850
+Wire Wire Line
+	7250 1350 7250 1150
+Connection ~ 5950 2550
+Wire Wire Line
+	5950 2550 6600 2550
+Connection ~ 6600 2550
+Wire Wire Line
+	6600 2550 7250 2550
+Connection ~ 6600 3250
+Wire Wire Line
+	6600 3250 7250 3250
+Connection ~ 5950 3250
+Wire Wire Line
+	5950 3250 6600 3250
+Connection ~ 6600 1850
+Wire Wire Line
+	6600 1850 7250 1850
+Wire Wire Line
+	5950 1850 5950 2050
+Connection ~ 5950 1850
+Wire Wire Line
+	5950 1850 6600 1850
+Connection ~ 5300 1150
+Wire Wire Line
+	5300 1150 5950 1150
+Connection ~ 5300 1850
+Connection ~ 5300 2550
+Connection ~ 5300 3250
+Connection ~ 5950 1150
+Wire Wire Line
+	5950 1150 6600 1150
+Connection ~ 6600 1150
+Wire Wire Line
+	6600 1150 7250 1150
+Wire Wire Line
+	5300 2550 5950 2550
+Wire Wire Line
+	5300 3250 5950 3250
+Wire Wire Line
+	5300 1850 5950 1850
+Text GLabel 5850 900  1    50   Input ~ 0
+COL7
+Text GLabel 6500 900  1    50   Input ~ 0
+COL8
+Text GLabel 7150 900  1    50   Input ~ 0
+COL9
+Text GLabel 7800 900  1    50   Input ~ 0
+COL10
+$Comp
+L Device:LED D41
+U 1 1 5CA180AF
+P 8150 1250
+F 0 "D41" V 8095 1328 50  0000 L CNN
+F 1 "LED" V 8186 1328 50  0000 L CNN
+F 2 "DREAM_Custom:LED_D5.0mm_05" H 8150 1250 50  0001 C CNN
+F 3 "~" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CA181A2
+P 8150 1700
+F 0 "R1" H 8220 1746 50  0000 L CNN
+F 1 "1000" H 8220 1655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8080 1700 50  0001 C CNN
+F 3 "~" H 8150 1700 50  0001 C CNN
+	1    8150 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 900  1    50   Input ~ 0
+POWER
+Text GLabel 8150 2000 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8150 900  8150 1100
+Wire Wire Line
+	8150 1400 8150 1550
+Wire Wire Line
+	8150 1850 8150 2000
+$Comp
+L Device:LED D42
+U 1 1 5CA88F5D
+P 8500 1250
+F 0 "D42" V 8445 1328 50  0000 L CNN
+F 1 "LED" V 8536 1328 50  0000 L CNN
+F 2 "DREAM_Custom:LED_D5.0mm_05" H 8500 1250 50  0001 C CNN
+F 3 "~" H 8500 1250 50  0001 C CNN
+	1    8500 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CA88F64
+P 8500 1700
+F 0 "R2" H 8570 1746 50  0000 L CNN
+F 1 "1000" H 8570 1655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8430 1700 50  0001 C CNN
+F 3 "~" H 8500 1700 50  0001 C CNN
+	1    8500 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 900  1    50   Input ~ 0
+CAPS
+Text GLabel 8500 2000 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8500 900  8500 1100
+Wire Wire Line
+	8500 1400 8500 1550
+Wire Wire Line
+	8500 1850 8500 2000
+$Comp
+L Device:LED D43
+U 1 1 5CA99A6A
+P 8850 1250
+F 0 "D43" V 8795 1328 50  0000 L CNN
+F 1 "LED" V 8886 1328 50  0000 L CNN
+F 2 "DREAM_Custom:LED_D5.0mm_05" H 8850 1250 50  0001 C CNN
+F 3 "~" H 8850 1250 50  0001 C CNN
+	1    8850 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CA99A71
+P 8850 1700
+F 0 "R3" H 8920 1746 50  0000 L CNN
+F 1 "1000" H 8920 1655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8780 1700 50  0001 C CNN
+F 3 "~" H 8850 1700 50  0001 C CNN
+	1    8850 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8850 900  1    50   Input ~ 0
+SYMB
+Text GLabel 8850 2000 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8850 900  8850 1100
+Wire Wire Line
+	8850 1400 8850 1550
+Wire Wire Line
+	8850 1850 8850 2000
+Text GLabel 10350 3600 2    50   Input ~ 0
+D0
+Text GLabel 10350 3700 2    50   Input ~ 0
+D1
+Text GLabel 10350 3800 2    50   Input ~ 0
+D2
+Text GLabel 10350 3900 2    50   Input ~ 0
+D3
+Text GLabel 10350 4000 2    50   Input ~ 0
+D4
+Text GLabel 10350 4100 2    50   Input ~ 0
+D5
+Text GLabel 10350 4200 2    50   Input ~ 0
+D6
+Text GLabel 10350 4300 2    50   Input ~ 0
+D7
+Text GLabel 10350 4400 2    50   Input ~ 0
+D8
+Text GLabel 10350 4500 2    50   Input ~ 0
+D9
+Text GLabel 10350 4600 2    50   Input ~ 0
+D10
+Text GLabel 10350 4700 2    50   Input ~ 0
+D14
+Text GLabel 10350 4800 2    50   Input ~ 0
+D15
+Text GLabel 10350 4900 2    50   Input ~ 0
+D16
+Text GLabel 10350 5000 2    50   Input ~ 0
+A0
+Text GLabel 10350 5100 2    50   Input ~ 0
+A1
+Text GLabel 10350 5200 2    50   Input ~ 0
+A2
+Text GLabel 10350 5300 2    50   Input ~ 0
+A3
+Text GLabel 8600 4750 0    50   Input ~ 0
+VCC
+Text GLabel 8600 4650 0    50   Input ~ 0
+RST
+Text GLabel 8600 4550 0    50   Input ~ 0
+RAW
+Text GLabel 8600 4350 0    50   Input ~ 0
+GND
+Text GLabel 8600 4250 0    50   Input ~ 0
+GND
+Text GLabel 8600 4150 0    50   Input ~ 0
+GND
+Text GLabel 10300 800  2    50   Input ~ 0
+D0
+Text GLabel 10300 900  2    50   Input ~ 0
+D1
+Text GLabel 10300 1000 2    50   Input ~ 0
+D2
+Text GLabel 10300 1100 2    50   Input ~ 0
+D3
+Text GLabel 10300 1200 2    50   Input ~ 0
+D4
+Text GLabel 10300 1300 2    50   Input ~ 0
+D5
+Text GLabel 10300 1400 2    50   Input ~ 0
+D6
+Text GLabel 10300 1500 2    50   Input ~ 0
+D7
+Text GLabel 10300 1600 2    50   Input ~ 0
+D8
+Text GLabel 10300 1700 2    50   Input ~ 0
+D9
+Text GLabel 10300 1800 2    50   Input ~ 0
+D10
+Text GLabel 10300 1900 2    50   Input ~ 0
+D14
+Text GLabel 10300 2000 2    50   Input ~ 0
+D15
+Text GLabel 10300 2100 2    50   Input ~ 0
+D16
+Text GLabel 10300 2200 2    50   Input ~ 0
+A0
+Text GLabel 10300 2300 2    50   Input ~ 0
+A1
+Text GLabel 10300 2400 2    50   Input ~ 0
+A2
+Text GLabel 10300 2500 2    50   Input ~ 0
+A3
+Wire Wire Line
+	10000 800  10300 800 
+Wire Wire Line
+	10000 900  10300 900 
+Wire Wire Line
+	10000 1000 10300 1000
+Wire Wire Line
+	10000 1100 10300 1100
+Wire Wire Line
+	10000 1200 10300 1200
+Wire Wire Line
+	10000 1300 10300 1300
+Wire Wire Line
+	10000 1400 10300 1400
+Wire Wire Line
+	10000 1500 10300 1500
+Wire Wire Line
+	10000 1600 10300 1600
+Wire Wire Line
+	10000 1700 10300 1700
+Wire Wire Line
+	10000 1800 10300 1800
+Wire Wire Line
+	10000 1900 10300 1900
+Wire Wire Line
+	10000 2000 10300 2000
+Wire Wire Line
+	10000 2100 10300 2100
+Wire Wire Line
+	10000 2200 10300 2200
+Wire Wire Line
+	10000 2300 10300 2300
+Wire Wire Line
+	10000 2400 10300 2400
+Wire Wire Line
+	10000 2500 10300 2500
+Text GLabel 10000 2600 0    50   Input ~ 0
+POWER
+Text GLabel 10000 2300 0    50   Input ~ 0
+CAPS
+Text GLabel 10000 2200 0    50   Input ~ 0
+SYMB
+Text GLabel 10300 2600 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	10000 2600 10300 2600
+Text GLabel 10000 1800 0    50   Input ~ 0
+ROW1
+Text GLabel 10000 2100 0    50   Input ~ 0
+ROW2
+Text GLabel 10000 1900 0    50   Input ~ 0
+ROW3
+Text GLabel 10000 2000 0    50   Input ~ 0
+ROW4
+Text GLabel 10000 1700 0    50   Input ~ 0
+COL1
+Text GLabel 10000 1600 0    50   Input ~ 0
+COL2
+Text GLabel 10000 1500 0    50   Input ~ 0
+COL3
+Text GLabel 10000 1400 0    50   Input ~ 0
+COL4
+Text GLabel 10000 1300 0    50   Input ~ 0
+COL5
+Text GLabel 10000 1200 0    50   Input ~ 0
+COL6
+Text GLabel 10000 1100 0    50   Input ~ 0
+COL7
+Text GLabel 10000 1000 0    50   Input ~ 0
+COL8
+Text GLabel 10000 900  0    50   Input ~ 0
+COL9
+Text GLabel 10000 800  0    50   Input ~ 0
+COL10
+$Comp
+L ArduProMiniTKB:ArduinoProMicro U1
+U 1 1 5C85CD2F
+P 9400 4400
+F 0 "U1" H 9450 4450 50  0000 C CNN
+F 1 "ArduinoProMicro" H 9450 4300 50  0000 C CNN
+F 2 "DREAM_Custom:Arduino_Pro_Micro" H 9400 5050 50  0001 C CNN
+F 3 "" H 9400 5050 50  0001 C CNN
+	1    9400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5100 10350 5100
+Wire Wire Line
+	9950 5000 10350 5000
+Wire Wire Line
+	9950 4900 10350 4900
+Wire Wire Line
+	9950 4800 10350 4800
+Wire Wire Line
+	9950 4700 10350 4700
+Wire Wire Line
+	9950 4600 10350 4600
+Wire Wire Line
+	9950 4200 10350 4200
+Wire Wire Line
+	9950 4300 10350 4300
+Wire Wire Line
+	9950 4100 10350 4100
+Wire Wire Line
+	9950 4000 10350 4000
+Wire Wire Line
+	9950 3900 10350 3900
+Wire Wire Line
+	9950 3800 10350 3800
+Wire Wire Line
+	9950 3700 10350 3700
+Wire Wire Line
+	9950 3600 10350 3600
+Wire Wire Line
+	8600 4150 8950 4150
+Wire Wire Line
+	8600 4250 8950 4250
+Wire Wire Line
+	8600 4350 8950 4350
+Wire Wire Line
+	8600 4550 8950 4550
+Wire Wire Line
+	8600 4650 8950 4650
+Wire Wire Line
+	8600 4750 8950 4750
+Wire Wire Line
+	10000 4400 10350 4400
+Wire Wire Line
+	10000 4500 10350 4500
+Wire Wire Line
+	9950 5300 10350 5300
+Wire Wire Line
+	9950 5200 10350 5200
+$EndSCHEMATC
