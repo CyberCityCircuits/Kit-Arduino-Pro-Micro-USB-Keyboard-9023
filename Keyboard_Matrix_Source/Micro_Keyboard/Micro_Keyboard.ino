@@ -102,60 +102,28 @@ void loop() {
     }
     if (key == 20) {if (SYMBLOCK == 1){Keyboard.write('"');}else{Keyboard.write('l');}}
     
-    if (key == 21) {
-      Keyboard.press(KEY_LEFT_SHIFT);
-      Keyboard.release(KEY_LEFT_SHIFT);
-    }
-    if (key == 22) {if (SYMBLOCK == 1){Keyboard.write('0');}else{Keyboard.write('z');}}
-    if (key == 23) {if (SYMBLOCK == 1){Keyboard.write('7');}else{Keyboard.write('x');}}
-    if (key == 24) {if (SYMBLOCK == 1){Keyboard.write('8');}else{Keyboard.write('c');}}
-    if (key == 25) {if (SYMBLOCK == 1){Keyboard.write('9');}else{Keyboard.write('v');}}
-    if (key == 26) {if (SYMBLOCK == 1){Keyboard.write('?');}else{Keyboard.write('b');}}
-    if (key == 27) {if (SYMBLOCK == 1){Keyboard.write('!');}else{Keyboard.write('n');}}
-    if (key == 28) {if (SYMBLOCK == 1){Keyboard.write(',');}else{Keyboard.write('m');}}
-    if (key == 29) {
-      Keyboard.press(KEY_RETURN);
-      Keyboard.release(KEY_RETURN);}
+    if (key == 21) {if (SYMBLOCK == 1){Keyboard.write('0');}else{
+      Keyboard.press(KEY_LEFT_SHIFT); Keyboard.release(KEY_LEFT_SHIFT);}}
+    if (key == 22) {if (SYMBLOCK == 1){Keyboard.write('7');}else{Keyboard.write('z');}}
+    if (key == 23) {if (SYMBLOCK == 1){Keyboard.write('8');}else{Keyboard.write('x');}}
+    if (key == 24) {if (SYMBLOCK == 1){Keyboard.write('9');}else{Keyboard.write('c');}}
+    if (key == 25) {if (SYMBLOCK == 1){Keyboard.write('?');}else{Keyboard.write('v');}}
+    if (key == 26) {if (SYMBLOCK == 1){Keyboard.write('!');}else{Keyboard.write('b');}}
+    if (key == 27) {if (SYMBLOCK == 1){Keyboard.write(',');}else{Keyboard.write('n');}}
+    if (key == 28) {if (SYMBLOCK == 1){Keyboard.write('.');}else{Keyboard.write('m');}}
+    if (key == 29) {Keyboard.press(KEY_RETURN);Keyboard.release(KEY_RETURN);}
     if (key == 30) {if (SYMBLOCK == 1){Keyboard.write('$');}else{Keyboard.write('=');}}
     
-    if (key == 31) {
-      Keyboard.write(KEY_LEFT_CTRL);
-      Keyboard.release(KEY_LEFT_CTRL);
-    }
-    if (key == 32) {
-      Keyboard.write(KEY_LEFT_ALT);
-      Keyboard.release(KEY_LEFT_ALT);
-    }
-    if (key == 33) {
-      if (CAPSLOCK == 0){CAPSLOCK = 1;}else{CAPSLOCK = 0;}
-      Keyboard.press(KEY_CAPS_LOCK);
-      Keyboard.release(KEY_CAPS_LOCK);      
-    }
-    if (key == 34) {
-      if (SYMBLOCK == 0){SYMBLOCK = 1;}else{SYMBLOCK = 0;}
-    }
-    if (key == 35) {
-      Keyboard.press(KEY_DELETE);
-      Keyboard.release(KEY_DELETE);      
-    }
-    if (key == 36) {
-      Keyboard.write(' ');
-    }
-    if (key == 37) {
-      Keyboard.press(KEY_LEFT_ARROW);
-      Keyboard.release(KEY_LEFT_ARROW);
-    }
-    if (key == 38) {
-      Keyboard.press(KEY_UP_ARROW);
-      Keyboard.release(KEY_UP_ARROW);
-    }
-    if (key == 39) {
-      Keyboard.press(KEY_RIGHT_ARROW);
-      Keyboard.release(KEY_RIGHT_ARROW);
-    }
-    if (key == 40) {
-      Keyboard.press(KEY_DOWN_ARROW);
-      Keyboard.release(KEY_DOWN_ARROW);
-    }
+    if (key == 31) {Keyboard.write(KEY_LEFT_CTRL); Keyboard.release(KEY_LEFT_CTRL);}
+    if (key == 32) {Keyboard.write(KEY_LEFT_ALT);Keyboard.release(KEY_LEFT_ALT);}
+    if (key == 33) {if (CAPSLOCK == 0){CAPSLOCK = 1;}else{CAPSLOCK = 0;}
+                    Keyboard.press(KEY_CAPS_LOCK);Keyboard.release(KEY_CAPS_LOCK);}
+    if (key == 34) {if (SYMBLOCK == 0){SYMBLOCK = 1;}else{SYMBLOCK = 0;}}
+    if (key == 35) {Keyboard.press(KEY_DELETE); Keyboard.release(KEY_DELETE);}
+    if (key == 36) {Keyboard.write(' ');}
+    if (key == 37) {Keyboard.press(KEY_LEFT_ARROW); Keyboard.release(KEY_LEFT_ARROW);}
+    if (key == 38) {Keyboard.press(KEY_UP_ARROW); Keyboard.release(KEY_UP_ARROW);}
+    if (key == 39) {Keyboard.press(KEY_RIGHT_ARROW); Keyboard.release(KEY_RIGHT_ARROW);}
+    if (key == 40) {Keyboard.press(KEY_DOWN_ARROW); Keyboard.release(KEY_DOWN_ARROW);}
   }
 }
