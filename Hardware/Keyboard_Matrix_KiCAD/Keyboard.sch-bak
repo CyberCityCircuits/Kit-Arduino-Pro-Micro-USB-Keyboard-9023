@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Keyboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,6 +25,17 @@ F 3 "" H 1600 1550 50  0001 C CNN
 	1    1600 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D1
+U 1 1 5C8079A6
+P 1600 1600
+F 0 "D1" H 1600 1792 40  0000 C CNN
+F 1 "1N4148" H 1600 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 1600 60  0001 C CNN
+F 3 "" H 1600 1600 60  0000 C CNN
+	1    1600 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1400 1600 1400 1450
 Wire Wire Line
@@ -39,6 +51,17 @@ F 1 "SW_Push" H 1600 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 1600 2250 50  0001 C CNN
 F 3 "" H 1600 2250 50  0001 C CNN
 	1    1600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D11
+U 1 1 5C807B26
+P 1600 2300
+F 0 "D11" H 1600 2492 40  0000 C CNN
+F 1 "1N4148" H 1600 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 2300 60  0001 C CNN
+F 3 "" H 1600 2300 60  0000 C CNN
+	1    1600 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -58,6 +81,17 @@ F 3 "" H 1600 2950 50  0001 C CNN
 	1    1600 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D21
+U 1 1 5C807C5B
+P 1600 3000
+F 0 "D21" H 1600 3192 40  0000 C CNN
+F 1 "1N4148" H 1600 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 3000 60  0001 C CNN
+F 3 "" H 1600 3000 60  0000 C CNN
+	1    1600 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1400 3000 1400 2850
 Wire Wire Line
@@ -75,6 +109,17 @@ F 3 "" H 1600 3650 50  0001 C CNN
 	1    1600 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D31
+U 1 1 5C807CEF
+P 1600 3700
+F 0 "D31" H 1600 3892 40  0000 C CNN
+F 1 "1N4148" H 1600 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 1600 3700 60  0001 C CNN
+F 3 "" H 1600 3700 60  0000 C CNN
+	1    1600 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1400 3700 1400 3550
 Wire Wire Line
@@ -83,15 +128,23 @@ Wire Wire Line
 	1800 3550 1800 3450
 Wire Wire Line
 	1950 900  1950 1600
+Wire Wire Line
+	1800 1600 1950 1600
 Connection ~ 1950 1600
 Wire Wire Line
 	1950 1600 1950 2300
+Wire Wire Line
+	1800 2300 1950 2300
 Connection ~ 1950 2300
 Wire Wire Line
 	1950 2300 1950 3000
+Wire Wire Line
+	1800 3000 1950 3000
 Connection ~ 1950 3000
 Wire Wire Line
 	1950 3000 1950 3700
+Wire Wire Line
+	1800 3700 1950 3700
 Text GLabel 1950 900  1    50   Input ~ 0
 COL1
 Text GLabel 1200 1150 0    50   Input ~ 0
@@ -123,6 +176,17 @@ F 3 "" H 2250 1550 50  0001 C CNN
 	1    2250 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D2
+U 1 1 5C811329
+P 2250 1600
+F 0 "D2" H 2250 1792 40  0000 C CNN
+F 1 "1N4148" H 2250 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 1600 60  0001 C CNN
+F 3 "" H 2250 1600 60  0000 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2050 1600 2050 1450
 Wire Wire Line
@@ -138,6 +202,17 @@ F 1 "SW_Push" H 2250 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2250 2250 50  0001 C CNN
 F 3 "" H 2250 2250 50  0001 C CNN
 	1    2250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D12
+U 1 1 5C81133A
+P 2250 2300
+F 0 "D12" H 2250 2492 40  0000 C CNN
+F 1 "1N4148" H 2250 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 2300 60  0001 C CNN
+F 3 "" H 2250 2300 60  0000 C CNN
+	1    2250 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -157,6 +232,17 @@ F 3 "" H 2250 2950 50  0001 C CNN
 	1    2250 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D22
+U 1 1 5C81134B
+P 2250 3000
+F 0 "D22" H 2250 3192 40  0000 C CNN
+F 1 "1N4148" H 2250 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 3000 60  0001 C CNN
+F 3 "" H 2250 3000 60  0000 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2050 3000 2050 2850
 Wire Wire Line
@@ -174,6 +260,17 @@ F 3 "" H 2250 3650 50  0001 C CNN
 	1    2250 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D32
+U 1 1 5C81135C
+P 2250 3700
+F 0 "D32" H 2250 3892 40  0000 C CNN
+F 1 "1N4148" H 2250 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2250 3700 60  0001 C CNN
+F 3 "" H 2250 3700 60  0000 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2050 3700 2050 3550
 Wire Wire Line
@@ -182,12 +279,20 @@ Wire Wire Line
 	2450 3550 2450 3450
 Wire Wire Line
 	2600 900  2600 1600
+Wire Wire Line
+	2450 1600 2600 1600
 Connection ~ 2600 1600
 Wire Wire Line
 	2600 1600 2600 2300
+Wire Wire Line
+	2450 2300 2600 2300
 Connection ~ 2600 2300
 Wire Wire Line
 	2600 2300 2600 3000
+Wire Wire Line
+	2450 3000 2600 3000
+Wire Wire Line
+	2450 3700 2600 3700
 Wire Wire Line
 	2050 3450 2050 3250
 Wire Wire Line
@@ -207,6 +312,17 @@ F 3 "" H 2900 1550 50  0001 C CNN
 	1    2900 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D3
+U 1 1 5C8145C3
+P 2900 1600
+F 0 "D3" H 2900 1792 40  0000 C CNN
+F 1 "1N4148" H 2900 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 1600 60  0001 C CNN
+F 3 "" H 2900 1600 60  0000 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2700 1600 2700 1450
 Wire Wire Line
@@ -222,6 +338,17 @@ F 1 "SW_Push" H 2900 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 2900 2250 50  0001 C CNN
 F 3 "" H 2900 2250 50  0001 C CNN
 	1    2900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D13
+U 1 1 5C8145D4
+P 2900 2300
+F 0 "D13" H 2900 2492 40  0000 C CNN
+F 1 "1N4148" H 2900 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 2300 60  0001 C CNN
+F 3 "" H 2900 2300 60  0000 C CNN
+	1    2900 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -241,6 +368,17 @@ F 3 "" H 2900 2950 50  0001 C CNN
 	1    2900 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D23
+U 1 1 5C8145E5
+P 2900 3000
+F 0 "D23" H 2900 3192 40  0000 C CNN
+F 1 "1N4148" H 2900 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 3000 60  0001 C CNN
+F 3 "" H 2900 3000 60  0000 C CNN
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2700 3000 2700 2850
 Wire Wire Line
@@ -258,6 +396,17 @@ F 3 "" H 2900 3650 50  0001 C CNN
 	1    2900 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D33
+U 1 1 5C8145F6
+P 2900 3700
+F 0 "D33" H 2900 3892 40  0000 C CNN
+F 1 "1N4148" H 2900 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 2900 3700 60  0001 C CNN
+F 3 "" H 2900 3700 60  0000 C CNN
+	1    2900 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2700 3700 2700 3550
 Wire Wire Line
@@ -266,15 +415,23 @@ Wire Wire Line
 	3100 3550 3100 3450
 Wire Wire Line
 	3250 900  3250 1600
+Wire Wire Line
+	3100 1600 3250 1600
 Connection ~ 3250 1600
 Wire Wire Line
 	3250 1600 3250 2300
+Wire Wire Line
+	3100 2300 3250 2300
 Connection ~ 3250 2300
 Wire Wire Line
 	3250 2300 3250 3000
+Wire Wire Line
+	3100 3000 3250 3000
 Connection ~ 3250 3000
 Wire Wire Line
 	3250 3000 3250 3700
+Wire Wire Line
+	3100 3700 3250 3700
 Wire Wire Line
 	2700 3450 2700 3250
 Wire Wire Line
@@ -298,6 +455,17 @@ F 3 "" H 3550 1550 50  0001 C CNN
 	1    3550 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D4
+U 1 1 5C831418
+P 3550 1600
+F 0 "D4" H 3550 1792 40  0000 C CNN
+F 1 "1N4148" H 3550 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 1600 60  0001 C CNN
+F 3 "" H 3550 1600 60  0000 C CNN
+	1    3550 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3350 1600 3350 1450
 Wire Wire Line
@@ -313,6 +481,17 @@ F 1 "SW_Push" H 3550 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 3550 2250 50  0001 C CNN
 F 3 "" H 3550 2250 50  0001 C CNN
 	1    3550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D14
+U 1 1 5C831429
+P 3550 2300
+F 0 "D14" H 3550 2492 40  0000 C CNN
+F 1 "1N4148" H 3550 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 2300 60  0001 C CNN
+F 3 "" H 3550 2300 60  0000 C CNN
+	1    3550 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -332,6 +511,17 @@ F 3 "" H 3550 2950 50  0001 C CNN
 	1    3550 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D24
+U 1 1 5C83143A
+P 3550 3000
+F 0 "D24" H 3550 3192 40  0000 C CNN
+F 1 "1N4148" H 3550 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 3000 60  0001 C CNN
+F 3 "" H 3550 3000 60  0000 C CNN
+	1    3550 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3350 3000 3350 2850
 Wire Wire Line
@@ -349,6 +539,17 @@ F 3 "" H 3550 3650 50  0001 C CNN
 	1    3550 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D34
+U 1 1 5C83144B
+P 3550 3700
+F 0 "D34" H 3550 3892 40  0000 C CNN
+F 1 "1N4148" H 3550 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 3550 3700 60  0001 C CNN
+F 3 "" H 3550 3700 60  0000 C CNN
+	1    3550 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3350 3700 3350 3550
 Wire Wire Line
@@ -357,10 +558,23 @@ Wire Wire Line
 	3750 3550 3750 3450
 Wire Wire Line
 	3900 900  3900 1600
+Wire Wire Line
+	3750 1600 3900 1600
 Connection ~ 3900 1600
+Wire Wire Line
+	3900 1600 3900 2300
+Wire Wire Line
+	3750 2300 3900 2300
+Connection ~ 3900 2300
+Wire Wire Line
+	3900 2300 3900 3000
+Wire Wire Line
+	3750 3000 3900 3000
 Connection ~ 3900 3000
 Wire Wire Line
 	3900 3000 3900 3700
+Wire Wire Line
+	3750 3700 3900 3700
 Wire Wire Line
 	3350 3450 3350 3250
 Wire Wire Line
@@ -376,6 +590,17 @@ F 1 "SW_Push" H 4200 1544 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4200 1550 50  0001 C CNN
 F 3 "" H 4200 1550 50  0001 C CNN
 	1    4200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D5
+U 1 1 5C83148A
+P 4200 1600
+F 0 "D5" H 4200 1792 40  0000 C CNN
+F 1 "1N4148" H 4200 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 1600 60  0001 C CNN
+F 3 "" H 4200 1600 60  0000 C CNN
+	1    4200 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -395,6 +620,17 @@ F 3 "" H 4200 2250 50  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D15
+U 1 1 5C83149B
+P 4200 2300
+F 0 "D15" H 4200 2492 40  0000 C CNN
+F 1 "1N4148" H 4200 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 2300 60  0001 C CNN
+F 3 "" H 4200 2300 60  0000 C CNN
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4000 2300 4000 2150
 Wire Wire Line
@@ -410,6 +646,17 @@ F 1 "SW_Push" H 4200 2944 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4200 2950 50  0001 C CNN
 F 3 "" H 4200 2950 50  0001 C CNN
 	1    4200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D25
+U 1 1 5C8314AC
+P 4200 3000
+F 0 "D25" H 4200 3192 40  0000 C CNN
+F 1 "1N4148" H 4200 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 3000 60  0001 C CNN
+F 3 "" H 4200 3000 60  0000 C CNN
+	1    4200 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -429,6 +676,17 @@ F 3 "" H 4200 3650 50  0001 C CNN
 	1    4200 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D35
+U 1 1 5C8314BD
+P 4200 3700
+F 0 "D35" H 4200 3892 40  0000 C CNN
+F 1 "1N4148" H 4200 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4200 3700 60  0001 C CNN
+F 3 "" H 4200 3700 60  0000 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4000 3700 4000 3550
 Wire Wire Line
@@ -437,15 +695,23 @@ Wire Wire Line
 	4400 3550 4400 3450
 Wire Wire Line
 	4550 900  4550 1600
+Wire Wire Line
+	4400 1600 4550 1600
 Connection ~ 4550 1600
 Wire Wire Line
 	4550 1600 4550 2300
+Wire Wire Line
+	4400 2300 4550 2300
 Connection ~ 4550 2300
 Wire Wire Line
 	4550 2300 4550 3000
+Wire Wire Line
+	4400 3000 4550 3000
 Connection ~ 4550 3000
 Wire Wire Line
 	4550 3000 4550 3700
+Wire Wire Line
+	4400 3700 4550 3700
 Wire Wire Line
 	4000 3450 4000 3250
 Wire Wire Line
@@ -465,6 +731,17 @@ F 3 "" H 4850 1550 50  0001 C CNN
 	1    4850 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D6
+U 1 1 5C8314F2
+P 4850 1600
+F 0 "D6" H 4850 1792 40  0000 C CNN
+F 1 "1N4148" H 4850 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 1600 60  0001 C CNN
+F 3 "" H 4850 1600 60  0000 C CNN
+	1    4850 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4650 1600 4650 1450
 Wire Wire Line
@@ -480,6 +757,17 @@ F 1 "SW_Push" H 4850 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 4850 2250 50  0001 C CNN
 F 3 "" H 4850 2250 50  0001 C CNN
 	1    4850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D16
+U 1 1 5C831503
+P 4850 2300
+F 0 "D16" H 4850 2492 40  0000 C CNN
+F 1 "1N4148" H 4850 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 2300 60  0001 C CNN
+F 3 "" H 4850 2300 60  0000 C CNN
+	1    4850 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -499,6 +787,17 @@ F 3 "" H 4850 2950 50  0001 C CNN
 	1    4850 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D26
+U 1 1 5C831514
+P 4850 3000
+F 0 "D26" H 4850 3192 40  0000 C CNN
+F 1 "1N4148" H 4850 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 3000 60  0001 C CNN
+F 3 "" H 4850 3000 60  0000 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4650 3000 4650 2850
 Wire Wire Line
@@ -516,6 +815,17 @@ F 3 "" H 4850 3650 50  0001 C CNN
 	1    4850 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D36
+U 1 1 5C831525
+P 4850 3700
+F 0 "D36" H 4850 3892 40  0000 C CNN
+F 1 "1N4148" H 4850 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 4850 3700 60  0001 C CNN
+F 3 "" H 4850 3700 60  0000 C CNN
+	1    4850 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4650 3700 4650 3550
 Wire Wire Line
@@ -524,15 +834,23 @@ Wire Wire Line
 	5050 3550 5050 3450
 Wire Wire Line
 	5200 900  5200 1600
+Wire Wire Line
+	5050 1600 5200 1600
 Connection ~ 5200 1600
 Wire Wire Line
 	5200 1600 5200 2300
+Wire Wire Line
+	5050 2300 5200 2300
 Connection ~ 5200 2300
 Wire Wire Line
 	5200 2300 5200 3000
+Wire Wire Line
+	5050 3000 5200 3000
 Connection ~ 5200 3000
 Wire Wire Line
 	5200 3000 5200 3700
+Wire Wire Line
+	5050 3700 5200 3700
 Wire Wire Line
 	4650 3450 4650 3250
 Wire Wire Line
@@ -641,6 +959,17 @@ F 3 "" H 5500 1550 50  0001 C CNN
 	1    5500 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D7
+U 1 1 5C99C11F
+P 5500 1600
+F 0 "D7" H 5500 1792 40  0000 C CNN
+F 1 "1N4148" H 5500 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 1600 60  0001 C CNN
+F 3 "" H 5500 1600 60  0000 C CNN
+	1    5500 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5300 1600 5300 1450
 Wire Wire Line
@@ -656,6 +985,17 @@ F 1 "SW_Push" H 5500 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 5500 2250 50  0001 C CNN
 F 3 "" H 5500 2250 50  0001 C CNN
 	1    5500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D17
+U 1 1 5C99C130
+P 5500 2300
+F 0 "D17" H 5500 2492 40  0000 C CNN
+F 1 "1N4148" H 5500 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 2300 60  0001 C CNN
+F 3 "" H 5500 2300 60  0000 C CNN
+	1    5500 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -675,6 +1015,17 @@ F 3 "" H 5500 2950 50  0001 C CNN
 	1    5500 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D27
+U 1 1 5C99C141
+P 5500 3000
+F 0 "D27" H 5500 3192 40  0000 C CNN
+F 1 "1N4148" H 5500 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 3000 60  0001 C CNN
+F 3 "" H 5500 3000 60  0000 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5300 3000 5300 2850
 Wire Wire Line
@@ -692,6 +1043,17 @@ F 3 "" H 5500 3650 50  0001 C CNN
 	1    5500 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D37
+U 1 1 5C99C152
+P 5500 3700
+F 0 "D37" H 5500 3892 40  0000 C CNN
+F 1 "1N4148" H 5500 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 5500 3700 60  0001 C CNN
+F 3 "" H 5500 3700 60  0000 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5300 3700 5300 3550
 Wire Wire Line
@@ -700,10 +1062,23 @@ Wire Wire Line
 	5700 3550 5700 3450
 Wire Wire Line
 	5850 900  5850 1600
+Wire Wire Line
+	5700 1600 5850 1600
 Connection ~ 5850 1600
 Wire Wire Line
 	5850 1600 5850 2300
+Wire Wire Line
+	5700 2300 5850 2300
 Connection ~ 5850 2300
+Wire Wire Line
+	5850 2300 5850 3000
+Wire Wire Line
+	5700 3000 5850 3000
+Connection ~ 5850 3000
+Wire Wire Line
+	5850 3000 5850 3700
+Wire Wire Line
+	5700 3700 5850 3700
 Wire Wire Line
 	5300 3450 5300 3250
 Wire Wire Line
@@ -723,6 +1098,17 @@ F 3 "" H 6150 1550 50  0001 C CNN
 	1    6150 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D8
+U 1 1 5C99C172
+P 6150 1600
+F 0 "D8" H 6150 1792 40  0000 C CNN
+F 1 "1N4148" H 6150 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 1600 60  0001 C CNN
+F 3 "" H 6150 1600 60  0000 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5950 1600 5950 1450
 Wire Wire Line
@@ -738,6 +1124,17 @@ F 1 "SW_Push" H 6150 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6150 2250 50  0001 C CNN
 F 3 "" H 6150 2250 50  0001 C CNN
 	1    6150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D18
+U 1 1 5C99C183
+P 6150 2300
+F 0 "D18" H 6150 2492 40  0000 C CNN
+F 1 "1N4148" H 6150 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 2300 60  0001 C CNN
+F 3 "" H 6150 2300 60  0000 C CNN
+	1    6150 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -757,6 +1154,17 @@ F 3 "" H 6150 2950 50  0001 C CNN
 	1    6150 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D28
+U 1 1 5C99C194
+P 6150 3000
+F 0 "D28" H 6150 3192 40  0000 C CNN
+F 1 "1N4148" H 6150 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 3000 60  0001 C CNN
+F 3 "" H 6150 3000 60  0000 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5950 3000 5950 2850
 Wire Wire Line
@@ -774,6 +1182,17 @@ F 3 "" H 6150 3650 50  0001 C CNN
 	1    6150 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D38
+U 1 1 5C99C1A5
+P 6150 3700
+F 0 "D38" H 6150 3892 40  0000 C CNN
+F 1 "1N4148" H 6150 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6150 3700 60  0001 C CNN
+F 3 "" H 6150 3700 60  0000 C CNN
+	1    6150 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5950 3700 5950 3550
 Wire Wire Line
@@ -782,15 +1201,23 @@ Wire Wire Line
 	6350 3550 6350 3450
 Wire Wire Line
 	6500 900  6500 1600
+Wire Wire Line
+	6350 1600 6500 1600
 Connection ~ 6500 1600
 Wire Wire Line
 	6500 1600 6500 2300
+Wire Wire Line
+	6350 2300 6500 2300
 Connection ~ 6500 2300
 Wire Wire Line
 	6500 2300 6500 3000
+Wire Wire Line
+	6350 3000 6500 3000
 Connection ~ 6500 3000
 Wire Wire Line
 	6500 3000 6500 3700
+Wire Wire Line
+	6350 3700 6500 3700
 Wire Wire Line
 	5950 3450 5950 3250
 Wire Wire Line
@@ -806,6 +1233,17 @@ F 1 "SW_Push" H 6800 1544 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6800 1550 50  0001 C CNN
 F 3 "" H 6800 1550 50  0001 C CNN
 	1    6800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D9
+U 1 1 5C99C1C4
+P 6800 1600
+F 0 "D9" H 6800 1792 40  0000 C CNN
+F 1 "1N4148" H 6800 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 1600 60  0001 C CNN
+F 3 "" H 6800 1600 60  0000 C CNN
+	1    6800 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -825,6 +1263,17 @@ F 3 "" H 6800 2250 50  0001 C CNN
 	1    6800 2050
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D19
+U 1 1 5C99C1D5
+P 6800 2300
+F 0 "D19" H 6800 2492 40  0000 C CNN
+F 1 "1N4148" H 6800 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 2300 60  0001 C CNN
+F 3 "" H 6800 2300 60  0000 C CNN
+	1    6800 2300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6600 2300 6600 2150
 Wire Wire Line
@@ -840,6 +1289,17 @@ F 1 "SW_Push" H 6800 2944 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 6800 2950 50  0001 C CNN
 F 3 "" H 6800 2950 50  0001 C CNN
 	1    6800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D29
+U 1 1 5C99C1E6
+P 6800 3000
+F 0 "D29" H 6800 3192 40  0000 C CNN
+F 1 "1N4148" H 6800 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 3000 60  0001 C CNN
+F 3 "" H 6800 3000 60  0000 C CNN
+	1    6800 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -859,6 +1319,17 @@ F 3 "" H 6800 3650 50  0001 C CNN
 	1    6800 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D39
+U 1 1 5C99C1F7
+P 6800 3700
+F 0 "D39" H 6800 3892 40  0000 C CNN
+F 1 "1N4148" H 6800 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 6800 3700 60  0001 C CNN
+F 3 "" H 6800 3700 60  0000 C CNN
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6600 3700 6600 3550
 Wire Wire Line
@@ -867,15 +1338,23 @@ Wire Wire Line
 	7000 3550 7000 3450
 Wire Wire Line
 	7150 900  7150 1600
+Wire Wire Line
+	7000 1600 7150 1600
 Connection ~ 7150 1600
 Wire Wire Line
 	7150 1600 7150 2300
+Wire Wire Line
+	7000 2300 7150 2300
 Connection ~ 7150 2300
 Wire Wire Line
 	7150 2300 7150 3000
+Wire Wire Line
+	7000 3000 7150 3000
 Connection ~ 7150 3000
 Wire Wire Line
 	7150 3000 7150 3700
+Wire Wire Line
+	7000 3700 7150 3700
 Wire Wire Line
 	6600 3450 6600 3250
 Wire Wire Line
@@ -895,6 +1374,17 @@ F 3 "" H 7450 1550 50  0001 C CNN
 	1    7450 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D10
+U 1 1 5C99C217
+P 7450 1600
+F 0 "D10" H 7450 1792 40  0000 C CNN
+F 1 "1N4148" H 7450 1716 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 1600 60  0001 C CNN
+F 3 "" H 7450 1600 60  0000 C CNN
+	1    7450 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7250 1600 7250 1450
 Wire Wire Line
@@ -910,6 +1400,17 @@ F 1 "SW_Push" H 7450 2244 50  0000 C CNN
 F 2 "DREAM_Custom:Kailanda Push Button 6.5x4.5" H 7450 2250 50  0001 C CNN
 F 3 "" H 7450 2250 50  0001 C CNN
 	1    7450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freetronics_schematic:DIODE D20
+U 1 1 5C99C228
+P 7450 2300
+F 0 "D20" H 7450 2492 40  0000 C CNN
+F 1 "1N4148" H 7450 2416 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 2300 60  0001 C CNN
+F 3 "" H 7450 2300 60  0000 C CNN
+	1    7450 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -929,6 +1430,17 @@ F 3 "" H 7450 2950 50  0001 C CNN
 	1    7450 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D30
+U 1 1 5C99C239
+P 7450 3000
+F 0 "D30" H 7450 3192 40  0000 C CNN
+F 1 "1N4148" H 7450 3116 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 3000 60  0001 C CNN
+F 3 "" H 7450 3000 60  0000 C CNN
+	1    7450 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7250 3000 7250 2850
 Wire Wire Line
@@ -946,6 +1458,17 @@ F 3 "" H 7450 3650 50  0001 C CNN
 	1    7450 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L freetronics_schematic:DIODE D40
+U 1 1 5C99C24A
+P 7450 3700
+F 0 "D40" H 7450 3892 40  0000 C CNN
+F 1 "1N4148" H 7450 3816 40  0000 C CNN
+F 2 "DREAM_Custom:DIODE_P6" H 7450 3700 60  0001 C CNN
+F 3 "" H 7450 3700 60  0000 C CNN
+	1    7450 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7250 3700 7250 3550
 Wire Wire Line
@@ -954,15 +1477,23 @@ Wire Wire Line
 	7650 3550 7650 3450
 Wire Wire Line
 	7800 900  7800 1600
+Wire Wire Line
+	7650 1600 7800 1600
 Connection ~ 7800 1600
 Wire Wire Line
 	7800 1600 7800 2300
+Wire Wire Line
+	7650 2300 7800 2300
 Connection ~ 7800 2300
 Wire Wire Line
 	7800 2300 7800 3000
+Wire Wire Line
+	7650 3000 7800 3000
 Connection ~ 7800 3000
 Wire Wire Line
 	7800 3000 7800 3700
+Wire Wire Line
+	7650 3700 7800 3700
 Wire Wire Line
 	7250 3450 7250 3250
 Wire Wire Line
@@ -1330,694 +1861,4 @@ Wire Wire Line
 	9950 5300 10350 5300
 Wire Wire Line
 	9950 5200 10350 5200
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F88990B
-P 1600 1600
-F 0 "D?" H 1600 1817 50  0000 C CNN
-F 1 "DIODE" H 1600 1726 50  0000 C CNN
-F 2 "" H 1600 1600 50  0001 C CNN
-F 3 "~" H 1600 1600 50  0001 C CNN
-F 4 "Y" H 1600 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 1600 1600 50  0001 L CNN "Spice_Primitive"
-	1    1600 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1600 1450 1600
-Wire Wire Line
-	1750 1600 1950 1600
-Wire Wire Line
-	5850 2300 5850 3000
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F8B9AD7
-P 2250 1600
-F 0 "D?" H 2250 1817 50  0000 C CNN
-F 1 "DIODE" H 2250 1726 50  0000 C CNN
-F 2 "" H 2250 1600 50  0001 C CNN
-F 3 "~" H 2250 1600 50  0001 C CNN
-F 4 "Y" H 2250 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2250 1600 50  0001 L CNN "Spice_Primitive"
-	1    2250 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F8D01A4
-P 2900 1600
-F 0 "D?" H 2900 1817 50  0000 C CNN
-F 1 "DIODE" H 2900 1726 50  0000 C CNN
-F 2 "" H 2900 1600 50  0001 C CNN
-F 3 "~" H 2900 1600 50  0001 C CNN
-F 4 "Y" H 2900 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2900 1600 50  0001 L CNN "Spice_Primitive"
-	1    2900 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F8E65BB
-P 3550 1600
-F 0 "D?" H 3550 1817 50  0000 C CNN
-F 1 "DIODE" H 3550 1726 50  0000 C CNN
-F 2 "" H 3550 1600 50  0001 C CNN
-F 3 "~" H 3550 1600 50  0001 C CNN
-F 4 "Y" H 3550 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 3550 1600 50  0001 L CNN "Spice_Primitive"
-	1    3550 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F8FC934
-P 4200 1600
-F 0 "D?" H 4200 1817 50  0000 C CNN
-F 1 "DIODE" H 4200 1726 50  0000 C CNN
-F 2 "" H 4200 1600 50  0001 C CNN
-F 3 "~" H 4200 1600 50  0001 C CNN
-F 4 "Y" H 4200 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4200 1600 50  0001 L CNN "Spice_Primitive"
-	1    4200 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F912D05
-P 4850 1600
-F 0 "D?" H 4850 1817 50  0000 C CNN
-F 1 "DIODE" H 4850 1726 50  0000 C CNN
-F 2 "" H 4850 1600 50  0001 C CNN
-F 3 "~" H 4850 1600 50  0001 C CNN
-F 4 "Y" H 4850 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4850 1600 50  0001 L CNN "Spice_Primitive"
-	1    4850 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F9292E5
-P 5500 1600
-F 0 "D?" H 5500 1817 50  0000 C CNN
-F 1 "DIODE" H 5500 1726 50  0000 C CNN
-F 2 "" H 5500 1600 50  0001 C CNN
-F 3 "~" H 5500 1600 50  0001 C CNN
-F 4 "Y" H 5500 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 5500 1600 50  0001 L CNN "Spice_Primitive"
-	1    5500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F93F6E7
-P 6150 1600
-F 0 "D?" H 6150 1817 50  0000 C CNN
-F 1 "DIODE" H 6150 1726 50  0000 C CNN
-F 2 "" H 6150 1600 50  0001 C CNN
-F 3 "~" H 6150 1600 50  0001 C CNN
-F 4 "Y" H 6150 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6150 1600 50  0001 L CNN "Spice_Primitive"
-	1    6150 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F955C77
-P 6800 1600
-F 0 "D?" H 6800 1817 50  0000 C CNN
-F 1 "DIODE" H 6800 1726 50  0000 C CNN
-F 2 "" H 6800 1600 50  0001 C CNN
-F 3 "~" H 6800 1600 50  0001 C CNN
-F 4 "Y" H 6800 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6800 1600 50  0001 L CNN "Spice_Primitive"
-	1    6800 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F96C1D2
-P 7450 1600
-F 0 "D?" H 7450 1817 50  0000 C CNN
-F 1 "DIODE" H 7450 1726 50  0000 C CNN
-F 2 "" H 7450 1600 50  0001 C CNN
-F 3 "~" H 7450 1600 50  0001 C CNN
-F 4 "Y" H 7450 1600 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 7450 1600 50  0001 L CNN "Spice_Primitive"
-	1    7450 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F9829AE
-P 1600 2300
-F 0 "D?" H 1600 2517 50  0000 C CNN
-F 1 "DIODE" H 1600 2426 50  0000 C CNN
-F 2 "" H 1600 2300 50  0001 C CNN
-F 3 "~" H 1600 2300 50  0001 C CNN
-F 4 "Y" H 1600 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 1600 2300 50  0001 L CNN "Spice_Primitive"
-	1    1600 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F998EB3
-P 2250 2300
-F 0 "D?" H 2250 2517 50  0000 C CNN
-F 1 "DIODE" H 2250 2426 50  0000 C CNN
-F 2 "" H 2250 2300 50  0001 C CNN
-F 3 "~" H 2250 2300 50  0001 C CNN
-F 4 "Y" H 2250 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2250 2300 50  0001 L CNN "Spice_Primitive"
-	1    2250 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F9AF220
-P 2900 2300
-F 0 "D?" H 2900 2517 50  0000 C CNN
-F 1 "DIODE" H 2900 2426 50  0000 C CNN
-F 2 "" H 2900 2300 50  0001 C CNN
-F 3 "~" H 2900 2300 50  0001 C CNN
-F 4 "Y" H 2900 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2900 2300 50  0001 L CNN "Spice_Primitive"
-	1    2900 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F9DBD24
-P 4200 2300
-F 0 "D?" H 4200 2517 50  0000 C CNN
-F 1 "DIODE" H 4200 2426 50  0000 C CNN
-F 2 "" H 4200 2300 50  0001 C CNN
-F 3 "~" H 4200 2300 50  0001 C CNN
-F 4 "Y" H 4200 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4200 2300 50  0001 L CNN "Spice_Primitive"
-	1    4200 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5F9F2208
-P 4850 2300
-F 0 "D?" H 4850 2517 50  0000 C CNN
-F 1 "DIODE" H 4850 2426 50  0000 C CNN
-F 2 "" H 4850 2300 50  0001 C CNN
-F 3 "~" H 4850 2300 50  0001 C CNN
-F 4 "Y" H 4850 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4850 2300 50  0001 L CNN "Spice_Primitive"
-	1    4850 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA08779
-P 5500 2300
-F 0 "D?" H 5500 2517 50  0000 C CNN
-F 1 "DIODE" H 5500 2426 50  0000 C CNN
-F 2 "" H 5500 2300 50  0001 C CNN
-F 3 "~" H 5500 2300 50  0001 C CNN
-F 4 "Y" H 5500 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 5500 2300 50  0001 L CNN "Spice_Primitive"
-	1    5500 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA1EAD7
-P 6150 2300
-F 0 "D?" H 6150 2517 50  0000 C CNN
-F 1 "DIODE" H 6150 2426 50  0000 C CNN
-F 2 "" H 6150 2300 50  0001 C CNN
-F 3 "~" H 6150 2300 50  0001 C CNN
-F 4 "Y" H 6150 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6150 2300 50  0001 L CNN "Spice_Primitive"
-	1    6150 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA34F23
-P 6800 2300
-F 0 "D?" H 6800 2517 50  0000 C CNN
-F 1 "DIODE" H 6800 2426 50  0000 C CNN
-F 2 "" H 6800 2300 50  0001 C CNN
-F 3 "~" H 6800 2300 50  0001 C CNN
-F 4 "Y" H 6800 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6800 2300 50  0001 L CNN "Spice_Primitive"
-	1    6800 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA4B2CC
-P 7450 2300
-F 0 "D?" H 7450 2517 50  0000 C CNN
-F 1 "DIODE" H 7450 2426 50  0000 C CNN
-F 2 "" H 7450 2300 50  0001 C CNN
-F 3 "~" H 7450 2300 50  0001 C CNN
-F 4 "Y" H 7450 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 7450 2300 50  0001 L CNN "Spice_Primitive"
-	1    7450 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA6180D
-P 7450 3000
-F 0 "D?" H 7450 3217 50  0000 C CNN
-F 1 "DIODE" H 7450 3126 50  0000 C CNN
-F 2 "" H 7450 3000 50  0001 C CNN
-F 3 "~" H 7450 3000 50  0001 C CNN
-F 4 "Y" H 7450 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 7450 3000 50  0001 L CNN "Spice_Primitive"
-	1    7450 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA77F6C
-P 6800 3000
-F 0 "D?" H 6800 3217 50  0000 C CNN
-F 1 "DIODE" H 6800 3126 50  0000 C CNN
-F 2 "" H 6800 3000 50  0001 C CNN
-F 3 "~" H 6800 3000 50  0001 C CNN
-F 4 "Y" H 6800 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6800 3000 50  0001 L CNN "Spice_Primitive"
-	1    6800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FA8E409
-P 6150 3000
-F 0 "D?" H 6150 3217 50  0000 C CNN
-F 1 "DIODE" H 6150 3126 50  0000 C CNN
-F 2 "" H 6150 3000 50  0001 C CNN
-F 3 "~" H 6150 3000 50  0001 C CNN
-F 4 "Y" H 6150 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6150 3000 50  0001 L CNN "Spice_Primitive"
-	1    6150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FAA4988
-P 5500 3000
-F 0 "D?" H 5500 3217 50  0000 C CNN
-F 1 "DIODE" H 5500 3126 50  0000 C CNN
-F 2 "" H 5500 3000 50  0001 C CNN
-F 3 "~" H 5500 3000 50  0001 C CNN
-F 4 "Y" H 5500 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 5500 3000 50  0001 L CNN "Spice_Primitive"
-	1    5500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FABAEE3
-P 4850 3000
-F 0 "D?" H 4850 3217 50  0000 C CNN
-F 1 "DIODE" H 4850 3126 50  0000 C CNN
-F 2 "" H 4850 3000 50  0001 C CNN
-F 3 "~" H 4850 3000 50  0001 C CNN
-F 4 "Y" H 4850 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4850 3000 50  0001 L CNN "Spice_Primitive"
-	1    4850 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FAD13F8
-P 4200 3000
-F 0 "D?" H 4200 3217 50  0000 C CNN
-F 1 "DIODE" H 4200 3126 50  0000 C CNN
-F 2 "" H 4200 3000 50  0001 C CNN
-F 3 "~" H 4200 3000 50  0001 C CNN
-F 4 "Y" H 4200 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4200 3000 50  0001 L CNN "Spice_Primitive"
-	1    4200 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FAE7712
-P 3550 3000
-F 0 "D?" H 3550 3217 50  0000 C CNN
-F 1 "DIODE" H 3550 3126 50  0000 C CNN
-F 2 "" H 3550 3000 50  0001 C CNN
-F 3 "~" H 3550 3000 50  0001 C CNN
-F 4 "Y" H 3550 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 3550 3000 50  0001 L CNN "Spice_Primitive"
-	1    3550 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FAFDA11
-P 2900 3000
-F 0 "D?" H 2900 3217 50  0000 C CNN
-F 1 "DIODE" H 2900 3126 50  0000 C CNN
-F 2 "" H 2900 3000 50  0001 C CNN
-F 3 "~" H 2900 3000 50  0001 C CNN
-F 4 "Y" H 2900 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2900 3000 50  0001 L CNN "Spice_Primitive"
-	1    2900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB14023
-P 2250 3000
-F 0 "D?" H 2250 3217 50  0000 C CNN
-F 1 "DIODE" H 2250 3126 50  0000 C CNN
-F 2 "" H 2250 3000 50  0001 C CNN
-F 3 "~" H 2250 3000 50  0001 C CNN
-F 4 "Y" H 2250 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2250 3000 50  0001 L CNN "Spice_Primitive"
-	1    2250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB2A4C7
-P 1600 3000
-F 0 "D?" H 1600 3217 50  0000 C CNN
-F 1 "DIODE" H 1600 3126 50  0000 C CNN
-F 2 "" H 1600 3000 50  0001 C CNN
-F 3 "~" H 1600 3000 50  0001 C CNN
-F 4 "Y" H 1600 3000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 1600 3000 50  0001 L CNN "Spice_Primitive"
-	1    1600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB408A7
-P 1600 3700
-F 0 "D?" H 1600 3917 50  0000 C CNN
-F 1 "DIODE" H 1600 3826 50  0000 C CNN
-F 2 "" H 1600 3700 50  0001 C CNN
-F 3 "~" H 1600 3700 50  0001 C CNN
-F 4 "Y" H 1600 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 1600 3700 50  0001 L CNN "Spice_Primitive"
-	1    1600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB57588
-P 2250 3700
-F 0 "D?" H 2250 3917 50  0000 C CNN
-F 1 "DIODE" H 2250 3826 50  0000 C CNN
-F 2 "" H 2250 3700 50  0001 C CNN
-F 3 "~" H 2250 3700 50  0001 C CNN
-F 4 "Y" H 2250 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2250 3700 50  0001 L CNN "Spice_Primitive"
-	1    2250 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB6DC99
-P 2900 3700
-F 0 "D?" H 2900 3917 50  0000 C CNN
-F 1 "DIODE" H 2900 3826 50  0000 C CNN
-F 2 "" H 2900 3700 50  0001 C CNN
-F 3 "~" H 2900 3700 50  0001 C CNN
-F 4 "Y" H 2900 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 2900 3700 50  0001 L CNN "Spice_Primitive"
-	1    2900 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB84078
-P 3550 3700
-F 0 "D?" H 3550 3917 50  0000 C CNN
-F 1 "DIODE" H 3550 3826 50  0000 C CNN
-F 2 "" H 3550 3700 50  0001 C CNN
-F 3 "~" H 3550 3700 50  0001 C CNN
-F 4 "Y" H 3550 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 3550 3700 50  0001 L CNN "Spice_Primitive"
-	1    3550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FB9A6B2
-P 4200 3700
-F 0 "D?" H 4200 3917 50  0000 C CNN
-F 1 "DIODE" H 4200 3826 50  0000 C CNN
-F 2 "" H 4200 3700 50  0001 C CNN
-F 3 "~" H 4200 3700 50  0001 C CNN
-F 4 "Y" H 4200 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4200 3700 50  0001 L CNN "Spice_Primitive"
-	1    4200 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FBB0F5C
-P 4850 3700
-F 0 "D?" H 4850 3917 50  0000 C CNN
-F 1 "DIODE" H 4850 3826 50  0000 C CNN
-F 2 "" H 4850 3700 50  0001 C CNN
-F 3 "~" H 4850 3700 50  0001 C CNN
-F 4 "Y" H 4850 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4850 3700 50  0001 L CNN "Spice_Primitive"
-	1    4850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FBC765E
-P 5500 3700
-F 0 "D?" H 5500 3917 50  0000 C CNN
-F 1 "DIODE" H 5500 3826 50  0000 C CNN
-F 2 "" H 5500 3700 50  0001 C CNN
-F 3 "~" H 5500 3700 50  0001 C CNN
-F 4 "Y" H 5500 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 5500 3700 50  0001 L CNN "Spice_Primitive"
-	1    5500 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FBDDC99
-P 6150 3700
-F 0 "D?" H 6150 3917 50  0000 C CNN
-F 1 "DIODE" H 6150 3826 50  0000 C CNN
-F 2 "" H 6150 3700 50  0001 C CNN
-F 3 "~" H 6150 3700 50  0001 C CNN
-F 4 "Y" H 6150 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6150 3700 50  0001 L CNN "Spice_Primitive"
-	1    6150 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FBF41CC
-P 6800 3700
-F 0 "D?" H 6800 3917 50  0000 C CNN
-F 1 "DIODE" H 6800 3826 50  0000 C CNN
-F 2 "" H 6800 3700 50  0001 C CNN
-F 3 "~" H 6800 3700 50  0001 C CNN
-F 4 "Y" H 6800 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 6800 3700 50  0001 L CNN "Spice_Primitive"
-	1    6800 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 5FC0A559
-P 7450 3700
-F 0 "D?" H 7450 3917 50  0000 C CNN
-F 1 "DIODE" H 7450 3826 50  0000 C CNN
-F 2 "" H 7450 3700 50  0001 C CNN
-F 3 "~" H 7450 3700 50  0001 C CNN
-F 4 "Y" H 7450 3700 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 7450 3700 50  0001 L CNN "Spice_Primitive"
-	1    7450 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 3700 7800 3700
-Wire Wire Line
-	7600 3000 7800 3000
-Wire Wire Line
-	7300 3000 7250 3000
-Wire Wire Line
-	7250 2300 7300 2300
-Wire Wire Line
-	7600 2300 7800 2300
-Wire Wire Line
-	7600 1600 7800 1600
-Wire Wire Line
-	7300 1600 7250 1600
-Wire Wire Line
-	6950 1600 7150 1600
-Wire Wire Line
-	6650 1600 6600 1600
-Wire Wire Line
-	6300 1600 6500 1600
-Wire Wire Line
-	6000 1600 5950 1600
-Wire Wire Line
-	5950 2300 6000 2300
-Wire Wire Line
-	5950 3000 6000 3000
-Wire Wire Line
-	6300 3000 6500 3000
-Wire Wire Line
-	6300 2300 6500 2300
-Wire Wire Line
-	6950 2300 7150 2300
-Wire Wire Line
-	6650 2300 6600 2300
-Wire Wire Line
-	6650 3000 6600 3000
-Wire Wire Line
-	6950 3000 7150 3000
-Wire Wire Line
-	7300 3700 7250 3700
-Wire Wire Line
-	6950 3700 7150 3700
-Wire Wire Line
-	6650 3700 6600 3700
-Wire Wire Line
-	6300 3700 6500 3700
-Wire Wire Line
-	5950 3700 6000 3700
-Wire Wire Line
-	5650 3700 5850 3700
-Wire Wire Line
-	5300 3700 5350 3700
-Wire Wire Line
-	5000 3700 5200 3700
-Wire Wire Line
-	4700 3700 4650 3700
-Wire Wire Line
-	4350 3700 4550 3700
-Wire Wire Line
-	4050 3700 4000 3700
-Wire Wire Line
-	3700 3700 3900 3700
-Wire Wire Line
-	3050 3700 3250 3700
-Wire Wire Line
-	2750 3700 2700 3700
-Wire Wire Line
-	2400 3700 2600 3700
-Wire Wire Line
-	2100 3700 2050 3700
-Wire Wire Line
-	1750 3700 1950 3700
-Wire Wire Line
-	1450 3700 1400 3700
-Wire Wire Line
-	1400 3000 1450 3000
-Wire Wire Line
-	1750 3000 1950 3000
-Wire Wire Line
-	2050 3000 2100 3000
-Wire Wire Line
-	2400 3000 2600 3000
-Wire Wire Line
-	2700 3000 2750 3000
-Wire Wire Line
-	3050 3000 3250 3000
-Wire Wire Line
-	3350 3000 3400 3000
-Wire Wire Line
-	3700 3000 3900 3000
-Wire Wire Line
-	4000 3000 4050 3000
-Wire Wire Line
-	4350 3000 4550 3000
-Wire Wire Line
-	5350 3000 5300 3000
-Wire Wire Line
-	5650 3000 5850 3000
-Connection ~ 5850 3000
-Wire Wire Line
-	5850 3000 5850 3700
-Wire Wire Line
-	5000 3000 5200 3000
-Wire Wire Line
-	4700 3000 4650 3000
-Wire Wire Line
-	5650 2300 5850 2300
-Wire Wire Line
-	5350 2300 5300 2300
-Wire Wire Line
-	4700 2300 4650 2300
-Wire Wire Line
-	5000 2300 5200 2300
-Wire Wire Line
-	4350 2300 4550 2300
-Wire Wire Line
-	3050 2300 3250 2300
-Wire Wire Line
-	4050 2300 4000 2300
-Wire Wire Line
-	3400 1600 3350 1600
-Wire Wire Line
-	3050 1600 3250 1600
-Wire Wire Line
-	2750 1600 2700 1600
-Wire Wire Line
-	2400 1600 2600 1600
-Wire Wire Line
-	2100 1600 2050 1600
-Wire Wire Line
-	3700 1600 3900 1600
-Wire Wire Line
-	4050 1600 4000 1600
-Wire Wire Line
-	4350 1600 4550 1600
-Wire Wire Line
-	4650 1600 4700 1600
-Wire Wire Line
-	5000 1600 5200 1600
-Wire Wire Line
-	5300 1600 5350 1600
-Wire Wire Line
-	5650 1600 5850 1600
-Wire Wire Line
-	3900 1600 3900 2300
-$Comp
-L Simulation_SPICE:DIODE D?
-U 1 1 604A354E
-P 3550 2300
-F 0 "D?" H 3550 2517 50  0000 C CNN
-F 1 "DIODE" H 3550 2426 50  0000 C CNN
-F 2 "" H 3550 2300 50  0001 C CNN
-F 3 "~" H 3550 2300 50  0001 C CNN
-F 4 "Y" H 3550 2300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 3550 2300 50  0001 L CNN "Spice_Primitive"
-	1    3550 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 2300 3350 2300
-Wire Wire Line
-	3700 2300 3900 2300
-Connection ~ 3900 2300
-Wire Wire Line
-	3900 2300 3900 3000
-Wire Wire Line
-	2700 2300 2750 2300
-Wire Wire Line
-	2400 2300 2600 2300
-Wire Wire Line
-	2100 2300 2050 2300
-Wire Wire Line
-	1750 2300 1950 2300
-Wire Wire Line
-	1450 2300 1400 2300
-Wire Wire Line
-	3400 3700 3350 3700
 $EndSCHEMATC
